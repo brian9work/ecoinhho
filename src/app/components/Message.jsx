@@ -1,30 +1,27 @@
 "use client";
-import { useState, useEffect } from "react";
+import React, { useState } from "react";
+import useElementVisibility from "@/app/hooks/useElementVisibility";
 
 export default function ScrollText() {
-  const [scrollY, setScrollY] = useState(0);
+    const { isVisible, topPercentage, elementRef } = useElementVisibility();
 
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrollY(window.scrollY);
-    };
+    return (
+         <div
+             style={{paddingTop: "200vh", paddingBottom: "200vh", marginTop: "170vh",}} 
+            className="transform text-center font-extrabold text-gray-800" 
+         >
+         <p 
+          ref={elementRef}
+             id="msj"
+             className="text-dark dark:text-white "
+             style={{
+                 fontSize: `${
+                     !isVisible ? 20 : 
+                     screen.availWidth*((100 - topPercentage)*0.0008) 
+                  }px`,
 
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
-  const fontSize = Math.min(4.7, 0.3 + scrollY / 100);
-
-  return (
-    <div className="">
-      <div
-        className=" transform text-center font-extrabold text-gray-800"
-        style={{
-          fontSize: `${fontSize}rem`,
-        }}
-      >
-        <p className="text-dark dark:text-white"> PROMOCION </p>
-      </div>
-    </div>
-  );
+               }}
+             > PROMOCION </p>
+       </div>
+    )
 }
