@@ -1,3 +1,4 @@
+import { SplitTextComponent } from "../general/TextAnimation"
 import { H2, P } from "../general/Texts"
 
 export default function Hero() {
@@ -17,10 +18,17 @@ export default function Hero() {
           <H2 className="text-4xl md:text-6xl font-bold text-primary-yellow max-w-3xl mb-6 font-figtree" >
             Especialistas en hipotecas, construccion, proyectos en Tlaxcala
           </H2>
-          <P className="text-xl md:text-2xl text-white mb-8">
+          
+          <SplitTextComponent 
+            text={'"Construyendo tus sueños, edificando el futuro."'}
+            delay={40}
+            className="text-xl md:text-2xl text-white mb-8 text-left font-semibold" 
+          />
+
+          {/* <P className="text-xl md:text-2xl text-white mb-8">
             "Construyendo tus sueños, edificando el futuro."
-          </P>
-          <button className="text-white py-2 rounded-xl text-lg font-medium bg-primary-yellow w-40 hover:w-48 transition-all duration-300">
+          </P> */}
+          <button className="text-white py-2 rounded-xl mt-7 text-lg font-medium bg-primary-yellow w-40 hover:w-48 transition-all duration-300">
             CONTACTAR
           </button>
         </div>
