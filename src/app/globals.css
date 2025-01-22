@@ -1,8 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap'); */
 
-:root {
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -12,10 +13,24 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+} */
+
+.fondoHeader{
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,0.15) 0%, rgba(0,0,0,1) 40%);
+}
+.banner-experience{
+  background: rgb(255, 255, 255);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.15) 15%, rgb(255, 255, 255) 80%);
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
+/* h1 {
+  font-family: "Figtree", serif;
+  font-weight: 900;
+} */
+/* body {
   font-family: Arial, Helvetica, sans-serif;
-}
+
+} */
+  /* color: var(--foreground);
+  background: var(--background); */
