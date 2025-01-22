@@ -23,7 +23,7 @@ export function TextAnimation({ children }) {
     )
 }
 
-export const SplitTextComponent = ({ text, delay=150, className="text-2xl font-semibold text-center" }) => {
+export const SplitTextComponent = ({ text, delay=150, className="text-2xl font-semibold" }) => {
     return (
         <div className='block w-full'>
             <SplitText

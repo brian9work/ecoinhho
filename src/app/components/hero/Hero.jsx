@@ -15,14 +15,14 @@ export default function Hero() {
           <div className="absolute inset-0 bg-black/40" />
         </div>
         <div className="container mx-auto relative z-10 px-4 py-20">
-          <H2 className="text-4xl md:text-6xl font-bold text-primary-yellow max-w-3xl mb-6 font-figtree" >
+          <H2 className="text-2xl md:text-5xl font-bold text-primary-yellow max-w-3xl mb-6 font-figtree" >
             Especialistas en hipotecas, construccion, proyectos en Tlaxcala
           </H2>
           
           <SplitTextComponent 
             text={'"Construyendo tus sueños, edificando el futuro."'}
             delay={40}
-            className="text-xl md:text-2xl text-white mb-8 text-left font-semibold" 
+            className="text-xl md:text-2xl text-white mb-8 text-left font-semibold " 
           />
 
           {/* <P className="text-xl md:text-2xl text-white mb-8">
