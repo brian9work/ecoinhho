@@ -54,18 +54,19 @@ export default function Promotion() {
                               }}
                             ></div>
                             <p className="text-md text-gray-600">{feature.title}</p>
-                            <SplitTextComponent text={feature.description} className="font-bold mb-1 text-xl" />
-                            {/* <h3 className="font-bold mb-1 text-xl">{feature.description}</h3> */}
+                            {/* <SplitTextComponent text={feature.description} className="font-bold mb-1 text-xl" /> */}
+                            <h3 className="font-bold mb-1 text-xl">{feature.description}</h3>
                         </div>
                     ))}
                 </div>
 
                 <div className="text-center mb-8">
-                <SplitTextComponent 
+                  <h2>"Una localidad tranquila, cerca de escuelas, negocios, avenidas y hospitales"</h2>
+                {/* <SplitTextComponent 
                     text={'"Una localidad tranquila, cerca de escuelas, negocios, avenidas y hospitales"'} 
                     delay={50} 
                     className='text-lg font-medium text-gray-600 pb-5'
-                />
+                /> */}
                 <br/>
                     <button className="bg-orange-400 text-white px-8 py-3 rounded-full text-lg font-medium hover:bg-orange-500 transition-colors">
                         Contactar

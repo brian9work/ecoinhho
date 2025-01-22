@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import useElementVisibility from "@/hooks/useElementVisibility";
-import SplitText from '@/hooks/SplitText'
+// import SplitText from '@/hooks/SplitText'
 
 export function TextAnimation({ children }) {
     const { isVisible, topPercentage, elementRef } = useElementVisibility();
@@ -26,7 +26,7 @@ export function TextAnimation({ children }) {
 export const SplitTextComponent = ({ text, delay=150, className="text-2xl font-semibold" }) => {
     return (
         <div className='block w-full'>
-            <SplitText
+            {/* <SplitText
                 text={text}
                 className={className}
                 delay={delay}
@@ -36,7 +36,7 @@ export const SplitTextComponent = ({ text, delay=150, className="text-2xl font-s
                 threshold={0.4}
                 rootMargin="-50px"
             // onLetterAnimationComplete={handleAnimationComplete()}
-            />
+            /> */}
         </div>
     )
 }

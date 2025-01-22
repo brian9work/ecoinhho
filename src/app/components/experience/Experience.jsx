@@ -22,8 +22,8 @@ export default function Experience() {
             >
                 <div className='w-6/12 max-w-md ml-auto py-10'>
                     <div className='w-10/12'>
-                     <SplitTextComponent text="Experiencia" />
-                        {/* <H3>Experiencia</H3> */}
+                     {/* <SplitTextComponent text="Experiencia" /> */}
+                        <H3>Experiencia</H3>
                         {/* <div className='text-center'>
                             <SplitText
                                 text="Experiencia"
