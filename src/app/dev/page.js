@@ -22,8 +22,6 @@ export default function Home() {
             <div className="relative ">
                 <Header />
                 <Hero />
-                {/* <Menu menuState={menuState} /> */}
-                {/* 
                 <Space />
                 <Experience />
                 <Space />
@@ -35,7 +33,7 @@ export default function Home() {
                 <Space />
                 <ServicesComponent />
                 <Space />
-                <Form /> */}
+                <Form />
 
 
             </div>

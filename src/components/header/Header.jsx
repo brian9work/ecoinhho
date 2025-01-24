@@ -9,7 +9,7 @@ export default function Header() {
     // const [menu, setMenu] = menuState
     return (
         // <Menu />
-        <div className='fixed left-0 top-0 z-10 w-full h-full'>
+        <div className='fixed left-0 top-0 z-10 w-full'>
             <header className={`absolute left-0 top-0 w-full ${menu ? "bg-black" : "bg-black/80"} py-3`}>
                 <div className='grid grid-cols-12 w-11/12 m-auto place-items-center'>
                     <div className='col-span-3 max-h-10 w-28'>
