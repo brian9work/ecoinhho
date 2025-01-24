@@ -43,7 +43,7 @@ const PromotionComponent = ({ title, description, icon }) => {
 export default function Promotion() {
    return (
       <div>
-         <P className='text-center'>Gran</P>
+         <H3 className='text-center'>Gran</H3>
          <TextAnimation>PROMOCION</TextAnimation>
          <div>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 mb-16 max-w-6xl mx-auto justify-center items-center">
@@ -53,11 +53,11 @@ export default function Promotion() {
             </div>
 
             <div className="text-center mb-8">
-               <H3 className=''>
+               <p className='text-center text-lg'>
                   <b className='text-5xl font-playfair'>"</b>
                   Una localidad tranquila, cerca de escuelas, negocios, avenidas y hospitales
                   <b className='text-5xl font-playfair'>"</b>
-               </H3>
+               </p>
                {/* <SplitTextComponent 
                     text={'"Una localidad tranquila, cerca de escuelas, negocios, avenidas y hospitales"'} 
                     delay={50} 

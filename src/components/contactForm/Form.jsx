@@ -4,6 +4,10 @@ import { Input, TextArea } from 'components/general/Input'
 import { Button, ButtonYellow } from '../general/Button'
 import socialData from 'data/socialData'
 
+const Tit = ({children})=>{
+    return ( <p>{children}</p> )
+}
+
 export default function Form() {
     return (
         <div
@@ -17,17 +21,17 @@ export default function Form() {
         >
             <div className='w-11/12 mx-auto'>
                 <div>
-                    <H2 className='text-center uppercase'>contacto</H2>
+                    <H3 className='text-center uppercase'>contacto</H3>
                     <P className='text-center' >Si tienes preguntas o ideas que te gustaría compartir, envíanos un mensaje.</P>
                 </div>
-                <div className='mt-14 block w-full md:w-6/12 mx-auto md:flex md:justify-center md:items-center md:flex-row-reverse'
+                <div className='mt-14 block w-full md:w-9/12 mx-auto md:flex md:justify-center md:items-center md:flex-row-reverse'
                     style={{
                         maxWidth: '1200px',
                     }}
                 >
-                    <form className='bg-white rounded-md py-5 w-11/12 md:w-8/12 mx-auto'>
+                    <form className='bg-white rounded-md py-8 w-11/12 md:w-8/12 mx-auto'>
                         <div className='w-11/12 mx-auto grid gap-1'>
-                            <H2 className='text-center'>Formulario de Contacto</H2>
+                            <H2 className='text-center text-2xl uppercase font-bold mb-5'>Formulario de Contacto</H2>
                             <Input
                                 type='text'
                                 label="Nombre"
@@ -60,7 +64,7 @@ export default function Form() {
                     </form>
                     <div className=' py-5 w-11/12 md:w-4/12 mx-auto'>
                         <div className='bg-white rounded-md py-5  '>
-                            <H2 className='text-center'>Redes de Contacto</H2>
+                            <H2 className='text-center text-2xl uppercase font-bold'>Redes de Contacto</H2>
                             {socialData.map((social, index) => {
                                 return (
                                     <div

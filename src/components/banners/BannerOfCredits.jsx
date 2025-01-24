@@ -1,11 +1,11 @@
 import React from 'react'
-import { H2 } from '../general/Texts'
+import { H2, H3 } from '../general/Texts'
 import imagens from 'data/imagensForCredits'
 
 export default function BannerOfCredits() {
   return (
     <div className='block w-full '>
-        <H2 className='text-center'>Aceptamos Creditos</H2>
+        <H3 className='text-center'>Aceptamos Creditos</H3>
         <div className='relative h-full w-full flex flex-row py-5'>
             <div className='absolute top-0 left-0 bg-black/20 h-full w-full'></div>
             <div className='grid grid-cols-3 w-10/12 m-auto max-w-screen-md'>
