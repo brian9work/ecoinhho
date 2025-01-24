@@ -2,12 +2,8 @@ import "@/app/globals.css"
 import Header from "@/app/components/header/Header";
 import Hero from "@/app/components/hero/Hero";
 import Experience from "@/app/components/experience/Experience";
-import Promotion from "@/app/components/promotion/Promotion";
-// import SplitText from "./SplitText";
 
-const Space = () => {
-    return <div className="h-60"></div>
-}
+const Space = () => <div className="h-60"></div>
 
 export default function Home() {
     return (
@@ -15,14 +11,8 @@ export default function Home() {
             <div className="relative ">
                 <Header />
                 <Hero />
-
-                {/* <h1 className="text-4xl font-figtree">Figtree Heading</h1>
-      <p className="text-lg font-playfair">Playfair Display Paragraph</p>
-      <p className="text-lg font-merriweather">Merriweather Paragraph</p> */}
                 <Space />
                 <Experience />
-                <Space />
-                <Promotion />
                 <Space />
 
 
