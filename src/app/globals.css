@@ -1,36 +1,73 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap'); */
 
-/* :root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+
+.banner-experience-content {
+  /* background-color: red; */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-} */
-
-.fondoHeader{
-  background: rgb(0,0,0);
-  background: linear-gradient(90deg, rgba(0,0,0,0.15) 0%, rgba(0,0,0,1) 40%);
+.fondoHeader {
+  background: rgb(0, 0, 0);
 }
-.banner-experience{
+
+.banner-experience {
   background: rgb(255, 255, 255);
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.15) 15%, rgb(255, 255, 255) 80%);
+  /* background-color: green; */
 }
 
-/* h1 {
-  font-family: "Figtree", serif;
-  font-weight: 900;
-} */
-/* body {
-  font-family: Arial, Helvetica, sans-serif;
+/* Estilo para dispositivos pequeños */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
 
-} */
-  /* color: var(--foreground);
-  background: var(--background); */
+  .banner-experience>div>div p {
+    /* background-color: blue; */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 12;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+/* Estilo para tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  .banner-experience>div>div p {
+    /* background-color: blue; */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 12;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+/* Estilo para pantallas grandes */
+@media (min-width: 769px) and (max-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/* Estilo para pantallas extra anchas */
+@media (min-width: 1024px) {
+  .fondoHeader {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.15) 30%, rgba(0, 0, 0, 1) 55%);
+  }
+}
+
+/* Estilo para pantallas extra anchas */
+@media (min-width: 1201px) {
+  body {
+    font-size: 20px;
+  }
+}

@@ -3,7 +3,7 @@ import { ButtonLinkYellow } from "../general/Button"
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center">
+    <section className={`relative min-h-screen flex items-center z-0`}>
       <div
         className="absolute inset-0"
         style={{

@@ -7,9 +7,11 @@ export default function Logo() {
             <div className="relative w-28 h-12 rounded-lg overflow-hidden shadow-lg">
                 <Image
                     // className=" bg-red-500"
-                    src="/ecoinhho-logo.png"
+                    src="/ecoinhho1.png"
                     alt="ecoinhho logo"
-                    layout="fill"
+                    layout="contain"
+                    width={100}
+                    height={100}
                     objectFit="cover"
                 />
             </div>
