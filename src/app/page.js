@@ -1,10 +1,6 @@
 import Image from "next/image";
 import "./globals.css"
-import Message from "./components/Message";
-
-const Space = ()=>{
-  return <div className="h-60"></div>
-}
+import Message from "components/Message";
 
 export default function Home() {
   return (
@@ -18,7 +14,7 @@ export default function Home() {
           priority
         />
         <h1 className="text-4xl font-bold text-center text-white">
-        Ecoinhho Page
+        Ecoinhho
         </h1>
 
       </main>

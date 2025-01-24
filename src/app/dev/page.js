@@ -1,9 +1,12 @@
 import "@/app/globals.css"
-import Header from "@/app/components/header/Header";
-import Hero from "@/app/components/hero/Hero";
-import Experience from "@/app/components/experience/Experience";
-import Promotion from "@/app/components/promotion/Promotion";
-// import SplitText from "./SplitText";
+import Header from "components/header/Header";
+import Hero from "components/hero/Hero";
+import Experience from "components/experience/Experience";
+import Promotion from "components/promotion/Promotion";
+import BannerOfCredits from "components/banners/BannerOfCredits";
+import Obtener from "components/obtenerTerreno/Obtener";
+import ServicesComponent from "components/servicesComponent/ServicesComponent";
+import Form from "@/components/contactForm/Form";
 
 const Space = () => {
     return <div className="h-60"></div>
@@ -15,15 +18,18 @@ export default function Home() {
             <div className="relative ">
                 <Header />
                 <Hero />
-
-                {/* <h1 className="text-4xl font-figtree">Figtree Heading</h1>
-      <p className="text-lg font-playfair">Playfair Display Paragraph</p>
-      <p className="text-lg font-merriweather">Merriweather Paragraph</p> */}
                 <Space />
                 <Experience />
                 <Space />
                 <Promotion />
                 <Space />
+                <Obtener />
+                <Space />
+                <BannerOfCredits />
+                <Space />
+                <ServicesComponent />
+                <Space />
+                <Form />
 
 
             </div>
