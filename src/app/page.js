@@ -18,7 +18,7 @@ export default function Home() {
           priority
         />
         <h1 className="text-4xl font-bold text-center text-white">
-        Ecoinhho
+        Ecoinhho Page
         </h1>
 
       </main>
