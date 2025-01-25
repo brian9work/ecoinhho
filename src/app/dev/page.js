@@ -10,6 +10,7 @@ import ServicesComponent from "components/servicesComponent/ServicesComponent";
 import Form from "@/components/contactForm/Form";
 import Menu from "@/components/header/Menu";
 import { useState } from "react";
+import Proyects from "@/components/proyects/Proyects";
 
 const Space = () => {
     return <div className="h-60"></div>
@@ -34,11 +35,12 @@ export default function Home() {
                 <ServicesComponent />
                 <Space />
                 <Form />
+                <Space />
+                <Proyects />
 
 
             </div>
 
-            {/* <br />
             <br />
             <br />
             <br />
@@ -60,7 +62,8 @@ export default function Home() {
             <br />
             <br />
             <br />
-            <br /> */}
+            <br />
+            <br />
         </div>
     );
 }

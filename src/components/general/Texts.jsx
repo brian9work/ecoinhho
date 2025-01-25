@@ -17,7 +17,7 @@ function H2({ className ="" , children = "Heading 2" }) {
 }
 function H3({ className ="" , children = "Heading 3" }) {
     return (
-        <h3 className={`${className}  font-bold uppercase text-xl text-center`}>
+        <h3 className={`${className}  font-semibold uppercase text-3xl text-center font-sans`}>
             {children}
         </h3>
     )
