@@ -8,7 +8,7 @@ export default function ProyectGeneralItem() {
             {ProyectsGeneralData.map((proyect, index) => {
                 return (
                     <div key={index} className='mx-auto my-10'>
-                        <p className='uppercase font-bold text-2xl text-primary-yellow mt-9 mb-5'>
+                        <p className='uppercase font-bold text-xl lg:text-2xl text-primary-yellow mt-9 mb-5'>
                             {proyect.title}
                         </p>
                         <div className='flex justify-around'>
@@ -30,7 +30,7 @@ export default function ProyectGeneralItem() {
                                 style={{ objectFit: "contain", width: "45%", height: "auto" }}
                             />
                         </div>
-                        <div className='h-2 w-full bg-primary-yellow my-10'></div>
+                        <div className='h-1 w-full bg-primary-yellow my-10'></div>
                     </div>
 
                 )

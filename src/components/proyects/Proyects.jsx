@@ -15,8 +15,8 @@ export default function Proyects() {
                     Nuestros Proyectos
                 </h3>
             </AnimatedCSS>
-            <H3 className='mt-5'>Promocion en el costo de la vivienda por preventa, con un regalo en linea blanca a la entrega de su nueva casa</H3>
-            <div className='w-full mx-auto max-w-1200 mt-10'
+            <H3 className='mt-1 w-11/12 mx-auto'>Promocion en el costo de la vivienda por preventa, con un regalo en linea blanca a la entrega de su nueva casa</H3>
+            <div className='w-11/12 md:w-full mx-auto max-w-1200 mt-10'
                 style={{}}
             >
                 <ProyectGeneralItem />
