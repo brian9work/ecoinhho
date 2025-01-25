@@ -28,7 +28,7 @@ export default function TestimonialsCarousel() {
             <AnimatedCSS animated='animate__zoomInDown' delay=''>
                 <h3 className='uppercase font-bold text-center text-2xl md:text-3xl lg:text-7xl text-primary-yellow'>
                     {/* Nuestros clientes hablan por nosotros */}
-                    Testimonios de nuestros clientes
+                    Testimonios de clientes
                 </h3>
             </AnimatedCSS>
 
@@ -39,7 +39,6 @@ export default function TestimonialsCarousel() {
                             <div className="flex items-center gap-4 mb-4">
                                 <div className="relative w-16 h-16 rounded-full overflow-hidden bg-gray-100">
                                     <Image
-                                        // src={testimonial.avatar || "/placeholder.svg"}
                                         src={testimonial.avatar}
                                         alt={`Avatar de ${testimonial.name}`}
                                         fill

@@ -12,6 +12,7 @@ import Menu from "@/components/header/Menu";
 import { useState } from "react";
 import Proyects from "@/components/proyects/Proyects";
 import TestimonialsCarousel from "@/components/Testimonials/TestimonialsCarousel";
+import { Footer } from "@/components/footer/Footer";
 
 const Space = () => {
     return <div className="h-60"></div>
@@ -40,6 +41,8 @@ export default function Home() {
                 <Proyects />
                 <Space />
                 <TestimonialsCarousel />
+                <Space />
+                <Footer />
 
 
             </div>
