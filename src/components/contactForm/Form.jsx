@@ -22,7 +22,6 @@ export default function Form() {
             <div className='w-11/12 mx-auto'>
                 <div>
                     <H3 className='text-center uppercase'>contacto</H3>
-                    <P className='text-center' >Si tienes preguntas o ideas que te gustaría compartir, envíanos un mensaje.</P>
                 </div>
                 <div className='mt-14 block w-full md:w-9/12 mx-auto md:flex md:justify-center md:items-center md:flex-row-reverse'
                     style={{
@@ -31,7 +30,8 @@ export default function Form() {
                 >
                     <form className='bg-white rounded-md py-8 w-11/12 md:w-8/12 mx-auto'>
                         <div className='w-11/12 mx-auto grid gap-1'>
-                            <H2 className='text-center text-2xl uppercase font-bold mb-5'>Formulario de Contacto</H2>
+                            <H2 className='text-center text-2xl uppercase font-bold mb-2'>Formulario de Contacto</H2>
+                            <P className='text-center mb-6' >Si tienes preguntas o ideas que te gustaría compartir, envíanos un mensaje.</P>
                             <Input
                                 type='text'
                                 label="Nombre"

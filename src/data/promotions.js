@@ -3,27 +3,27 @@ import origin from "config/isServer"
 
 const features = [
       {
-         icon: origin + "gifs/homeO.webp",
+         icon: origin + "gifs/home.gif",
          title: "Viviendas desde",
          description: "$ 700,000 MXN",
       },
       {
-         icon: origin + "gifs/chartO.webp",
+         icon: origin + "gifs/chart.gif",
          title: "Excelente",
          description: "Plusvalia",
       },
       {
-         icon: origin + "gifs/coinsO.webp",
+         icon: origin + "gifs/coins.gif",
          title: "Opción de",
          description: "Creditos",
       },
       {
-         icon: origin + "gifs/constructionO.webp",
+         icon: origin + "gifs/construction.gif",
          title: "Construcción desde",
          description: "6 meses",
       },
       {
-         icon: origin + "gifs/giftO.webp",
+         icon: origin + "gifs/gift.gif",
          title: "Regalo de",
          description: "Linea Blanca",
       }

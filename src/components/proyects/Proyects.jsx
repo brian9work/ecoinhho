@@ -2,6 +2,8 @@ import React from 'react'
 import { H3, P } from '../general/Texts'
 import { AnimatedCSS } from '../general/TextAnimation'
 import Image from 'next/image'
+import ProyectsGeneralData from '@/data/ProyectsGeneralData'
+import ProyectGeneralItem from './items/ProyectGeneralItem'
 
 const url = "/house.png"
 
@@ -17,30 +19,7 @@ export default function Proyects() {
             <div className='w-full mx-auto max-w-1200 mt-10'
                 style={{}}
             >
-                <div>
-                    <div className='flex justify-around'>
-                        <Image
-                            src={url}
-                            width={500}
-                            height={100}
-                            alt="ecoinhho logo"
-                            layout="contain"
-                            objectFit="contain"
-                        />
-                        <Image
-                            src={url}
-                            width={500}
-                            height={100}
-                            alt="ecoinhho logo"
-                            layout="contain"
-                            objectFit="contain"
-                        />
-                    </div>
-                    
-                    <p className='uppercase font-bold text-center text-xl my-5'>
-                        Una planta dos recamaras
-                    </p>
-                </div>
+                <ProyectGeneralItem />
             </div>
         </div>
     )
