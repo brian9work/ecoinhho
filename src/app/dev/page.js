@@ -8,8 +8,6 @@ import BannerOfCredits from "components/banners/BannerOfCredits";
 import Obtener from "components/obtenerTerreno/Obtener";
 import ServicesComponent from "components/servicesComponent/ServicesComponent";
 import Form from "@/components/contactForm/Form";
-import Menu from "@/components/header/Menu";
-import { useState } from "react";
 import Proyects from "@/components/proyects/Proyects";
 import TestimonialsCarousel from "@/components/Testimonials/TestimonialsCarousel";
 import { Footer } from "@/components/footer/Footer";

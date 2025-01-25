@@ -12,7 +12,8 @@ export default function TestimonialsCarousel() {
 
     // console.log(window.screen.width)
 
-    const cardsOnView = (window.screen.width > 768 ? 2 : 1)
+    // const cardsOnView = (window.screen.width > 768 ? 2 : 1)
+    const cardsOnView = 2
 
     function next() {
         setCurrentIndex((prevIndex) => (prevIndex + cardsOnView >= testimonials.length ? 0 : prevIndex + cardsOnView))
