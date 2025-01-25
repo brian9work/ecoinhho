@@ -13,12 +13,10 @@ export default function Home() {
     return (
         <div className="relative bg-gray-50 ">
             <div className="relative ">
-                <Header menuState={menuState} />
-                <Menu menuState={menuState} />
-                <Hero menuState={menuState} />
+                <Header />
+                <Hero />
                 <Space />
                 <Experience />
-                <Space />
 
 
             </div>

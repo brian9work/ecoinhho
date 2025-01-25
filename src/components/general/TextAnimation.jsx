@@ -75,20 +75,29 @@ export function AnimatedCSS({ children = "No hay texto", animated = "animate__fa
             {/* <h3 className={`font-bold mb-1 text-xl`}>{children}</h3> */}
         </div>
     )
-
-//         < div
-//     ref = { elementRef }
-//     className = {`animate__animated
-    //        ${isVisible && topPercentage < 90 ?
-    //             "animate__fadeInUp animate__slower anima "
-    //             :
-    //             "opacity-0"
-    //         }`
-    // }
-    //  >
-    //     <h3 className={`font-bold mb-1 text-xl`}>{description}</h3>
-    //  </div >
 }
+
+export function AnimatedCSSTitle({ children = "No hay texto", animated = "animate__fadeInUp", delay = "animate__slower" }) {
+    const { isVisible, topPercentage, elementRef } = useElementVisibility();
+    return (
+        <div
+            ref={elementRef}
+            className={`animate__animated 
+                ${isVisible && topPercentage < 90 ?
+                    `${animated} ${delay}`
+                    :
+                    "opacity-0"
+                }
+        `}>
+            <h3 className='uppercase font-bold text-center text-5xl md:text-6xl lg:text-7xl text-primary-yellow'>
+                {children}
+            </h3>
+        </div>
+    )
+}
+
+
+
 
 export const SplitTextComponent = ({ text, delay = 150, className = "text-2xl font-semibold" }) => {
     return (

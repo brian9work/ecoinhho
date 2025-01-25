@@ -15,6 +15,10 @@ const imagensForCredits = [
     {
         name: "inmobiliaria",
         imagen: origin + "credits/inmobiliaria.png",
+    },
+    {
+        name: "sofom",
+        imagen: origin + "credits/sofom.png",
     }
 ]
 

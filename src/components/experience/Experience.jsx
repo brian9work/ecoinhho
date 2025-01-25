@@ -15,7 +15,7 @@ export default function Experience() {
                 }}
             >
                 <div className='w-6/12 max-w-md ml-auto py-10'>
-                    <div className='w-11/12 overflow-hidden' id='component'
+                    <div className='w-10/12 overflow-hidden' id='component'
                         style={{
                             maxHeight: '50vh',
                         }}

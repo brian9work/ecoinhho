@@ -7,7 +7,7 @@ const nextConfig = {
             // hostname: "localhost",
             // pathname: "/**",   
             protocol: "https",
-            hostname: "raw.githubusercontent.com/brian9work/ecoinhho/refs/heads/main/src/assets/",
+            hostname: "raw.githubusercontent.com",
             pathname: "/**",    
          },
       ],

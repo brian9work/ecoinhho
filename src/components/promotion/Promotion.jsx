@@ -1,41 +1,35 @@
 "use client"
 import React from 'react'
-import { H3, P } from 'components/general/Texts'
-import { AnimatedCSS, SplitTextComponent, TextAnimation } from 'components/general/TextAnimation'
+import { H3 } from 'components/general/Texts'
+import { AnimatedCSS,  TextAnimation } from 'components/general/TextAnimation'
 import 'animate.css';
-import useElementVisibility from 'hooks/useElementVisibility'
 import features from 'data/promotions'
-import { ButtonLinkYellow } from '../general/Button';
-// import Message from 'components/Message'
+import { ButtonLinkYellow } from 'components/general/Button';
+import Image from 'next/image';
 
 const PromotionComponent = ({ title, description, icon }) => {
-   const { isVisible, topPercentage, elementRef } = useElementVisibility();
    return (
       <div
          className="flex flex-col items-center text-center">
-         <div className="text-orange-400 mb-4 w-7/12 h-40"
-            style={{
-               backgroundImage: `url("${icon}")`,
-               backgroundSize: 'contain',
-               backgroundPosition: 'center',
-               backgroundRepeat: 'no-repeat',
-               display: 'block',
-            }}
-         ></div>
-         <p className="text-md text-gray-600">{title}</p>
+         <div className="text-orange-400 mb-4 w-9/12 h-32 lg:h-44 ">
+            <Image
+               src={icon}
+               alt={title}
+               width={100}
+               height={100}
+               style={{
+                  objectFit: 'contain',
+                  display: 'block',
+                  width: '100%',
+                  height: "100%",
+                  margin: 'auto',
+               }}
+            />
+         </div>
+         <p className="text-md text-gray-600 ">{title}</p>
          <AnimatedCSS>
             <h3 className={`font-bold mb-1 text-xl`}>{description}</h3>
          </AnimatedCSS>
-         {/* <div
-            ref={elementRef}
-            className={`animate__animated 
-               ${isVisible && topPercentage<90  ? 
-                  "animate__fadeInUp animate__slower anima " 
-               :  
-                  "opacity-0"
-               }`}
-         >
-         </div> */}
       </div>
    )
 }
@@ -58,11 +52,6 @@ export default function Promotion() {
                   Una localidad tranquila, cerca de escuelas, negocios, avenidas y hospitales
                   <b className='text-5xl font-playfair'>"</b>
                </p>
-               {/* <SplitTextComponent 
-                    text={'"Una localidad tranquila, cerca de escuelas, negocios, avenidas y hospitales"'} 
-                    delay={50} 
-                    className='text-lg font-medium text-gray-600 pb-5'
-                /> */}
                <br />
                <div className='w-8/12 md:w-3/12 mt-5 mx-auto'>
                   <ButtonLinkYellow href={``}>Contactar</ButtonLinkYellow>

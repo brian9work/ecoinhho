@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Button, ButtonLink } from 'components/general/Button'
+import { ButtonLink } from 'components/general/Button'
 import Logo from 'components/general/Logo';
 import { TiThMenu, TiChevronRight } from "react-icons/ti";
 import Menu from './Menu';

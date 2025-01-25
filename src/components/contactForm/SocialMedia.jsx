@@ -1,6 +1,6 @@
 import React from 'react'
-import { H2 } from '../general/Texts'
-import socialData from '@/data/socialData'
+import { H2 } from 'components/general/Texts'
+import socialData from 'data/socialData'
 
 export default function SocialMedia() {
     return (

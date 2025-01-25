@@ -1,7 +1,7 @@
 import React from 'react'
-import { H2, P } from '../general/Texts'
-import { Input, TextArea } from '../general/Input'
-import { ButtonYellow } from '../general/Button'
+import { H2, P } from 'components/general/Texts'
+import { Input, TextArea } from 'components/general/Input'
+import { ButtonYellow } from 'components/general/Button'
 
 export default function FormComponent() {
     return (

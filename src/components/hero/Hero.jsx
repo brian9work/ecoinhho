@@ -1,5 +1,5 @@
 import { H2, P } from "components/general/Texts"
-import { ButtonLinkYellow } from "../general/Button"
+import { ButtonLinkYellow } from "components/general/Button"
 
 export default function Hero() {
   return (
@@ -24,9 +24,6 @@ export default function Hero() {
         <div className='w-8/12 md:w-3/12 mt-5'>
           <ButtonLinkYellow href={``}>Contactar</ButtonLinkYellow>
         </div>
-        {/* <button className="text-white py-2 rounded-xl mt-7 text-lg font-medium bg-primary-yellow w-40 hover:w-48 transition-all duration-300">
-            CONTACTAR
-          </button> */}
       </div>
     </section>
   )

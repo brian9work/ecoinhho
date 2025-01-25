@@ -3,7 +3,7 @@
 import { useState } from "react"
 import Image from "next/image"
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi"
-import { AnimatedCSS } from "components/general/TextAnimation"
+import { AnimatedCSSTitle } from "components/general/TextAnimation"
 import testimonials from "@/data/testimonials"
 
 
@@ -28,12 +28,10 @@ export default function TestimonialsCarousel() {
 
     return (
         <div className="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
-            <AnimatedCSS animated='animate__zoomInDown' delay=''>
-                <h3 className='uppercase font-bold text-center text-2xl md:text-3xl lg:text-7xl text-primary-yellow'>
-                    {/* Nuestros clientes hablan por nosotros */}
-                    Testimonios de clientes
-                </h3>
-            </AnimatedCSS>
+            <AnimatedCSSTitle animated='animate__zoomInDown' delay=''>
+                {/* Nuestros clientes hablan por nosotros */}
+                Testimonios de clientes
+            </AnimatedCSSTitle>
 
             <div className="relative">
                 <div className="flex gap-3 items-start">
