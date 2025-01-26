@@ -7,8 +7,8 @@ export default function ProyectGeneralItem() {
         <>
             {ProyectsGeneralData.map((proyect, index) => {
                 return (
-                    <div key={index} className='mx-auto my-10'>
-                        <p className='uppercase font-bold text-xl lg:text-2xl text-primary-yellow mt-9 mb-5'>
+                    <div key={index} className=' w-11/12 max-w-96 p-3 shadow-sm shadow-primary-yellow rounded-lg'>
+                        <p className='uppercase font-bold text-xl lg:text-2xl text-primary-yellow  mb-5 '>
                             {proyect.title}
                         </p>
                         <div className='flex justify-around'>
@@ -20,17 +20,17 @@ export default function ProyectGeneralItem() {
                                 // fill={"contain"}
                                 // layout="contain"
                                 // objectFit="contain"
-                                style={{ objectFit: "contain", width: "45%", height: "auto" }}
+                                style={{ objectFit: "cover", width: "47%", height: "250", }}
                             />
                             <Image
                                 src={proyect.imagen2}
                                 width={200}
                                 height={100}
                                 alt="ecoinhho logo"
-                                style={{ objectFit: "contain", width: "45%", height: "auto" }}
+                                style={{ objectFit: "cover", width: "47%", height: "250", }}
                             />
                         </div>
-                        <div className='h-1 w-full bg-primary-yellow my-10'></div>
+                        {/* <div className='h-1 w-full bg-primary-yellow my-10'></div> */}
                     </div>
 
                 )

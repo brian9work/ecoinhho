@@ -51,6 +51,27 @@ export function ButtonLinkYellow({href, children}) {
         </div>
     )
 }
+export function ButtonLinkYellowSecondary({href, children}) {
+    return (
+        <div className={`w-full h-full grid place-items-center `}>
+            <Link 
+                href={href}
+                className={`
+                    w-10/12 h-full 
+                    text-primary-yellow font-bold uppercase text-center
+                     border-4 py-2 rounded-xl 
+                    border-primary-yellow 
+                    transition-all
+                    opacity-80
+                     hover:bg-primary-yellow hover:-translate-y-1 hover:w-full hover:opacity-100 hover:text-black
+                    `}
+                    // hover:bg-white/90 hover:text-primary-yellow
+                    >
+                {children}
+            </Link>
+        </div>
+    )
+}
 export function ButtonYellow({href="", children}) {
     return (
         <div className={`w-full h-full grid place-items-center `}>
