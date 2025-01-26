@@ -1,9 +1,12 @@
 import React from 'react'
 import Image from "next/image";
+import Link from 'next/link';
+import RoutesFrontend from '@/config/routes';
 
 export default function Logo() {
     return (
         <div className=' relative flex items-center justify-center flex-col '>
+            <Link href={RoutesFrontend.home}>
             <div className="relative w-28 h-12 rounded-lg overflow-hidden shadow-lg">
                 <Image
                     // className=" bg-red-500"
@@ -13,12 +16,13 @@ export default function Logo() {
                     width={100}
                     height={100}
                     objectFit="cover"
-                />
+                    />
             </div>
             <h1
                 className='text-yellow-500 font-bold uppercase text-xl'
-            > Ecoinhho
+                > Ecoinhho
             </h1>
+                </Link>
         </div>
     )
 }
