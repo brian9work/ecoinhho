@@ -1,3 +1,4 @@
+"use client"
 import React, { useState } from 'react'
 import { ButtonLink } from 'components/general/Button'
 import Logo from 'components/general/Logo';

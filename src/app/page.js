@@ -19,9 +19,11 @@ export default function Home() {
 
          </main>
          <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center text-gray-200">
-            <p>Pagina en reparacion </p>
+            <p>Pagina en Desarrollo </p>
          </footer>
-         <TextAnimation>Pagina en Desarrollo</TextAnimation>
+         <div style={{marginTop: '200vh'}}>
+            <TextAnimation>En Desarrollo</TextAnimation>
+         </div>
          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
       </div>
    );
