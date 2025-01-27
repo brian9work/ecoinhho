@@ -11,6 +11,7 @@ import Form from "@/components/contactForm/Form";
 import Proyects from "@/components/proyects/Proyects";
 import TestimonialsCarousel from "@/components/Testimonials/TestimonialsCarousel";
 import { Footer } from "@/components/footer/Footer";
+import Galery from "@/components/galeria/Galery";
 
 const Space = () => {
     return <div className="h-60"></div>
@@ -37,6 +38,8 @@ export default function Home() {
                 <Form />
                 <Space />
                 <Proyects />
+                <Space />
+                <Galery />
                 <Space />
                 <TestimonialsCarousel />
                 <Space />

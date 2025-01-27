@@ -2,14 +2,14 @@ import Link from 'next/link'
 import React from 'react'
 
 const clases = {
-    parent : 'w-full h-full grid place-items-center ', 
-    button : 'w-full h-full text-gray-50 py-2  font-bold  rounded-xl px-8  border-white border-2 grid place-items-center'
-} 
+    parent: 'w-full h-full grid place-items-center ',
+    button: 'w-full h-full text-gray-50 py-2  font-bold  rounded-xl px-8  border-white border-2 grid place-items-center'
+}
 
-export function Button({type="submit", children}) {
+export function Button({ type = "submit", children }) {
     return (
         <div className={clases.parent}>
-            <button 
+            <button
                 type={type}
                 className={clases.button}>
                 {children}
@@ -18,10 +18,10 @@ export function Button({type="submit", children}) {
     )
 }
 
-export function ButtonLink({href, children}) {
+export function ButtonLink({ href, children }) {
     return (
         <div className={clases.parent}>
-            <Link 
+            <Link
                 href={href}
                 className={clases.button}>
                 {children}
@@ -30,10 +30,11 @@ export function ButtonLink({href, children}) {
     )
 }
 
-export function ButtonLinkYellow({href, children}) {
+export function ButtonLinkYellow({ href, children }) {
     return (
         <div className={`w-full h-full grid place-items-center `}>
-            <Link 
+            <Link
+                about='blank'
                 href={href}
                 className={`
                     w-10/12 h-full 
@@ -44,17 +45,18 @@ export function ButtonLinkYellow({href, children}) {
                     opacity-80
                      hover:border-primary-yellow hover:-translate-y-1 hover:w-full hover:opacity-100
                     `}
-                    // hover:bg-white/90 hover:text-primary-yellow
-                    >
+            // hover:bg-white/90 hover:text-primary-yellow
+            >
                 {children}
             </Link>
         </div>
     )
 }
-export function ButtonLinkYellowSecondary({href, children}) {
+export function ButtonLinkYellowSecondary({ href, children }) {
     return (
         <div className={`w-full h-full grid place-items-center `}>
-            <Link 
+            <Link
+                about='blank'
                 href={href}
                 className={`
                     w-10/12 h-full 
@@ -65,17 +67,17 @@ export function ButtonLinkYellowSecondary({href, children}) {
                     opacity-80
                      hover:bg-primary-yellow hover:-translate-y-1 hover:w-full hover:opacity-100 hover:text-black
                     `}
-                    // hover:bg-white/90 hover:text-primary-yellow
-                    >
+            // hover:bg-white/90 hover:text-primary-yellow
+            >
                 {children}
             </Link>
         </div>
     )
 }
-export function ButtonYellow({href="", children}) {
+export function ButtonYellow({ href = "", children }) {
     return (
         <div className={`w-full h-full grid place-items-center `}>
-            <button 
+            <button
                 type='submit'
                 className={`
                     w-10/12 h-full 
@@ -86,8 +88,8 @@ export function ButtonYellow({href="", children}) {
                     opacity-80
                      hover:border-primary-yellow hover:-translate-y-1 hover:w-full hover:opacity-100
                     `}
-                    // hover:bg-white/90 hover:text-primary-yellow
-                    >
+            // hover:bg-white/90 hover:text-primary-yellow
+            >
                 {children}
             </button>
         </div>
