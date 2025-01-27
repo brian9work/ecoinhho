@@ -1,7 +1,7 @@
 import React from 'react'
 import { AnimatedCSSTitle } from 'components/general/TextAnimation'
-import FormComponent from './FormComponent'
-import SocialMedia from './SocialMedia'
+import FormComponent from './form/FormComponent'
+import SocialMedia from './form/SocialMedia'
 import origin from '@/config/isServer'
 
 export default function Form() {

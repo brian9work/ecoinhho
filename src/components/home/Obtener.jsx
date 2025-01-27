@@ -1,7 +1,7 @@
 import React from 'react'
 import { AnimatedCSSTitle } from 'components/general/TextAnimation'
 import { P } from 'components/general/Texts'
-import origin from '@/config/isServer'
+import origin from 'config/isServer'
 import { ButtonLinkYellow } from 'components/general/Button'
 import Image from 'next/image'
 

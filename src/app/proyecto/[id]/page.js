@@ -1,8 +1,8 @@
 "use client"
 import "@/app/globals.css"
 import Header from "components/header/Header";
-import Hero from "components/hero/Hero";
-import Experience from "components/experience/Experience";
+import Hero from "@/components/home/Hero";
+import Experience from "@/components/home/Experience";
 import Menu from "components/header/Menu";
 import { useState } from "react";
 

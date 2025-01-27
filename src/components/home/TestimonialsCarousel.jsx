@@ -10,9 +10,6 @@ import testimonials from "@/data/testimonials"
 export default function TestimonialsCarousel() {
     const [currentIndex, setCurrentIndex] = useState(0)
 
-    // console.log(window.screen.width)
-
-    // const cardsOnView = (window.screen.width > 768 ? 2 : 1)
     const cardsOnView = 2
 
     function next() {

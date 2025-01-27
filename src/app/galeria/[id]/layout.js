@@ -2,7 +2,7 @@
 
 import "@/app/globals.css"
 import Banner from "@/components/banners/Banner";
-import { Footer } from "@/components/footer/Footer";
+import { Footer } from "@/components/general/Footer";
 import Header from "@/components/header/Header";
 import NavTabs from "@/components/nav/Nav";
 import navData from "@/data/galeriaData"

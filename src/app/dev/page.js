@@ -1,17 +1,17 @@
 "use client";
 import "@/app/globals.css"
 import Header from "components/header/Header";
-import Hero from "components/hero/Hero";
-import Experience from "components/experience/Experience";
-import Promotion from "components/promotion/Promotion";
+import Hero from "@/components/home/Hero";
+import Experience from "@/components/home/Experience";
+import Promotion from "@/components/home/Promotion";
 import BannerOfCredits from "components/banners/BannerOfCredits";
-import Obtener from "components/obtenerTerreno/Obtener";
-import ServicesComponent from "components/servicesComponent/ServicesComponent";
-import Form from "@/components/contactForm/Form";
-import Proyects from "@/components/proyects/Proyects";
-import TestimonialsCarousel from "@/components/Testimonials/TestimonialsCarousel";
-import { Footer } from "@/components/footer/Footer";
-import Galery from "@/components/galeria/Galery";
+import Obtener from "components/home/Obtener";
+import ServicesComponent from "@/components/home/ServicesComponent";
+import Form from "@/components/home/Form";
+import Proyects from "@/components/home/Proyects";
+import TestimonialsCarousel from "@/components/home/TestimonialsCarousel";
+import { Footer } from "@/components/general/Footer";
+import Galery from "@/components/home/Galery";
 
 const Space = () => {
     return <div className="h-60"></div>

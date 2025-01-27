@@ -23,7 +23,6 @@ export default function Proyects() {
                 <ButtonLinkYellowSecondary href='' className='mt-10'>Ver mas proyectos</ButtonLinkYellowSecondary>
 
             </div>
-            {/* <Link href='/galeria/acabados'>Ver mas proyectos</Link> */}
         </div>
     )
 }
