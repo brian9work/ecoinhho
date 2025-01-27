@@ -1,6 +1,6 @@
 import Image from "next/image";
 import "./globals.css"
-import Message from "components/Message";
+import { TextAnimation } from "@/components/general/TextAnimation";
 
 export default function Home() {
    return (
@@ -21,7 +21,7 @@ export default function Home() {
          <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center text-gray-200">
             <p>Pagina en reparacion </p>
          </footer>
-         <Message />
+         <TextAnimation>Pagina en Desarrollo</TextAnimation>
          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
       </div>
    );

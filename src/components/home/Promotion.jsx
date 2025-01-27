@@ -17,6 +17,7 @@ const PromotionComponent = ({ title, description, icon }) => {
                alt={title}
                width={100}
                height={100}
+               unoptimized={true}
                style={{
                   objectFit: 'contain',
                   display: 'block',
