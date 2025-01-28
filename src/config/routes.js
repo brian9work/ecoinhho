@@ -12,6 +12,10 @@ const RoutesFrontend = {
         ventanas: '/galeria/ventanas',
         demas: '/galeria/demas',
     },
+    credito: {
+        home: '/credito/',
+        fovissste: '/credito/niveles-de-servicio-FOVISSSTE',
+    }
 }
 
 export default RoutesFrontend;
