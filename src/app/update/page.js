@@ -3,6 +3,7 @@ import "@/app/globals.css"
 import Header from "components/header/Header";
 import Hero from "@/components/home/Hero";
 import Experience from "@/components/home/Experience";
+import Promotion from "@/components/home/Promotion";
 
 const Space = () => {
     return <div className="h-60"></div>
@@ -18,6 +19,7 @@ export default function Home() {
                 <Space />
                 <Experience />
                 <Space />
+                <Promotion />
                 <Space />
             </div>
         </div>

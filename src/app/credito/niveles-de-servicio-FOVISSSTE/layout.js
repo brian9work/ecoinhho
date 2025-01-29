@@ -8,7 +8,7 @@ export default function RootLayout({ children }) {
   return (
     <div>
         <Header />
-        <Banner>Creditos</Banner>
+        <Banner src={"write.jpg"} >Creditos</Banner>
         {children}
         <br/>
         <br/>

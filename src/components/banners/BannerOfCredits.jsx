@@ -12,7 +12,7 @@ export default function BannerOfCredits() {
             </AnimatedCSSTitle>
             <div className='relative h-full w-full flex flex-row py-5 mt-6 '>
                 <div className='absolute top-0 left-0 bg-black/5 h-full w-full'></div>
-                <div className='grid grid-cols-4 w-10/12 m-auto max-w-900'>
+                <div className='grid grid-cols-4 w-8/12 m-auto max-w-900 gap-y-5 gap-x-3 '>
                     {imagens.map((imagen, index) => {
                         return (
                             <Image
@@ -25,8 +25,9 @@ export default function BannerOfCredits() {
                                     objectFit: 'contain',
                                     display: 'block',
                                     width: '90%',
-                                    height: "auto",
+                                    height: "100px",
                                     margin: 'auto',
+                                    // background: "red"
                                 }}
                             />
                         )

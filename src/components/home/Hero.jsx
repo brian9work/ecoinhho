@@ -1,5 +1,6 @@
 import { H2, P } from "components/general/Texts"
 import { ButtonLinkYellow } from "components/general/Button"
+import origin from "@/config/isServer"
 
 export default function Hero() {
   return (
@@ -7,7 +8,7 @@ export default function Hero() {
       <div
         className="absolute inset-0"
         style={{
-          backgroundImage: `url("https://raw.githubusercontent.com/brian9work/ecoinhho/refs/heads/main/src/assets/write.jpg")`,
+          backgroundImage: `url("${origin}write.jpg")`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}

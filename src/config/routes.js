@@ -15,6 +15,9 @@ const RoutesFrontend = {
     credito: {
         home: '/credito/',
         fovissste: '/credito/niveles-de-servicio-FOVISSSTE',
+    },
+    elTule: {
+        home: '/el-tule/'
     }
 }
 

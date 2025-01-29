@@ -7,7 +7,7 @@ import features from 'data/promotions'
 import { ButtonLinkYellow } from 'components/general/Button';
 import Image from 'next/image';
 
-const PromotionComponent = ({ title, description, icon }) => {
+export const PromotionComponent = ({ title, description, icon }) => {
    return (
       <div
          className="flex flex-col items-center text-center">

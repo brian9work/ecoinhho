@@ -10,7 +10,7 @@ export default function Home() {
                   <div className="md:flex" key={index}>
                      <div 
                      style={{zIndex: 1}}
-                        className="w-full md:w-52 flex items-center sticky top-24 bg-white md:bg-white/0 rounded-lg shadow-md md:shadow-none px-3 translate-y-1 py-3">
+                        className="w-full md:w-52 flex items-center  top-24 bg-white md:bg-white/0 rounded-lg shadow-md md:shadow-none px-3 translate-y-1 py-3">
                         <h2 className="text-md md:text-lg text-center md:text-left font-bold">{etapa.etapa}</h2>
                      </div>
                      <div className="h-3 mb-5 md:mb-0 md:h-auto md:w-6" style={{ background: etapa.color }}></div>
