@@ -3,8 +3,8 @@ import NotFound from '@/components/general/NotFound'
 import React from 'react'
 
 export const metadata = {
-  title: "Ecoinhho",
-  description: "Constructor de casas ",
+  title: "Erorr 404 - Ecoinhho",
+  description: " ",
 };
 
 export default function notFound() {
