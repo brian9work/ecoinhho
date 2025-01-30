@@ -6,7 +6,7 @@ import Experience from "@/components/home/Experience";
 import Promotion from "@/components/home/Promotion";
 
 const Space = () => {
-    return <div className="h-60"></div>
+    return <div className="h-40"></div>
 }
 
 export default function Home() {

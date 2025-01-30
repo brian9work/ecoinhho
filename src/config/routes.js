@@ -18,6 +18,9 @@ const RoutesFrontend = {
     },
     elTule: {
         home: '/el-tule/'
+    },
+    proyectos: {
+        home: '/proyecto/',
     }
 }
 

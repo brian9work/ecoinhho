@@ -10,13 +10,11 @@ import navData from "@/data/galeriaData"
 export default function RootLayout({ children }) {
    return (
       <div className="relative">
-         <Header />
          <Banner>Banner de imagenes</Banner>
          <NavTabs data={navData} origin={navData[0].href} />
          <div className="mb-96">
             {children}
          </div>
-         <Footer />
       </div>
    );
 }

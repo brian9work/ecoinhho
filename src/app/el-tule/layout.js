@@ -4,7 +4,6 @@ import Header from "@/components/header/Header";
 export default function RootLayout({ children }) {
    return (
       <div className="relative">
-         <Header />
          <div>
             {children}
          </div>
@@ -21,7 +20,6 @@ export default function RootLayout({ children }) {
          <br/>
          <br/>
          <br/>
-         <Footer />
       </div>
    );
 }

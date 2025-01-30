@@ -11,7 +11,7 @@ export default function Header() {
     return (
         // <Menu />
         <div className='fixed left-0 top-0 z-10 w-full'>
-            <header className={`absolute left-0 top-0 w-full ${menu ? "bg-black" : "bg-black/80"} py-3`}>
+            <header className={`absolute left-0 top-0 w-full ${menu ? "bg-black" : "bg-black/80"} py-3 z-30`}>
                 <div className='grid grid-cols-12 w-11/12 m-auto place-items-center'>
                     <div className='col-span-3 max-h-14 w-28'>
                         <ButtonLink href={"./"}>Contactar</ButtonLink>
