@@ -12,7 +12,6 @@ export default function NotFound() {
           href="/"
           className="inline-flex items-center px-4 py-2 bg-primary-yellow/80 text-white rounded-md hover:bg-primary-yellow transition-colors duration-300"
         >
-          {/* <Home className="mr-2" size={20} /> */}
           Volver al inicio
         </Link>
       </div>

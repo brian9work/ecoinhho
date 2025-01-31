@@ -8,10 +8,19 @@ import { AnimatedCSSTitle } from "@/components/general/TextAnimation";
 import Image from "next/image";
 import origin from "@/config/isServer";
 import { P } from "@/components/general/Texts";
+import Link from "next/link";
+import NotProyectFound from "../components/NotProyectFound";
 
 export default function Home() {
     const pathname = usePathname()
     const newData = data.filter((item) => item.href === pathname)[0] ?? {}
+
+    if (!newData.name) {
+        return (
+            <NotProyectFound />
+        )
+    }
+
     return (
         <div className="relative bg-gray-50 pb-96">
             <BannerForProyect
@@ -30,7 +39,7 @@ export default function Home() {
             <div className="w-11/12 max-w-1200 mx-auto ">
                 <div className="mt-5">
                     <Image
-                        src={origin + "cielo3.jpg"}
+                        src={newData.source}
                         alt={"Imagen"}
                         width={1200}
                         height={600}
@@ -39,18 +48,18 @@ export default function Home() {
                 </div>
                 <div className="mt-10">
                     <P>
-                        <b>Objetivo: </b> 
+                        <b>Objetivo: </b>
                         {newData.objetive}
                     </P>
                     <P>
-                        <b>Rqeurimiento Basico: </b> 
+                        <b>Rqeurimiento Basico: </b>
                         {newData.requeriment}
                     </P>
                 </div>
                 <div className="mt-16">
                     <h4 className="text-primary-yellow text-lg md:text-2xl font-bold">Imagenes</h4>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-2">
-                        {newData.imagens.map((img, key) =>{
+                        {newData.imagens.map((img, key) => {
                             return (
                                 <div className="" key={key}>
                                     <Image
@@ -69,7 +78,7 @@ export default function Home() {
                 <div className="mt-16">
                     <h4 className="text-primary-yellow text-lg md:text-2xl font-bold">Modelos o planos</h4>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-2">
-                        {newData.models.map((img, key) =>{
+                        {newData.models.map((img, key) => {
                             return (
                                 <div className="" key={key}>
                                     <Image
@@ -88,7 +97,7 @@ export default function Home() {
                 <div className="mt-16">
                     <h4 className="text-primary-yellow text-lg md:text-2xl font-bold">Mas detalles</h4>
                     <div className="grid mt-2">
-                        {newData.others.map((other, key) =>{
+                        {newData.others.map((other, key) => {
                             return (
                                 <div className="" key={key}>
                                     <P>

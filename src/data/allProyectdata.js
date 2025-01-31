@@ -8,7 +8,7 @@ const allProyects = [
         name: "Residencia rustica en el corazon de tlaxcala",
         slogan: "Quiero un hogar contemporáneo, combina diseño innovador, eficiencia energética y confort en cada detalle.",
         isImagen: true,
-        source: origin + "proyects/image.jpg",
+        source: origin + "cielo.jpg",
         objetive: "Crear un hogar moderno y funcional que cumpla con las necesidades del cliente, priorizando la sostenibilidad y el uso eficiente de los recursos.",
         requeriment: "Espacios abiertos, tres recámaras, cocina integral y terraza con vistas.",
         imagens: [
@@ -42,7 +42,7 @@ const allProyects = [
         name: "Casa minimalista en las montañas",
         slogan: "Diseño simple y elegante que se integra con la naturaleza, ofreciendo vistas espectaculares y máxima comodidad.",
         isImagen: true,
-        source: origin + "proyects/mountain_house/image.jpg",
+        source: origin + "cielo.jpg",
         objetive: "Construir una casa que ofrezca tranquilidad y conexión con la naturaleza, con materiales de bajo impacto ambiental.",
         requeriment: "Grandes ventanales, dos niveles, terraza panorámica y chimenea ecológica.",
         imagens: [
@@ -70,7 +70,7 @@ const allProyects = [
         name: "Departamento urbano sostenible",
         slogan: "Un espacio moderno en la ciudad con diseño inteligente y enfoque en la eficiencia energética.",
         isImagen: true,
-        source: origin + "proyects/urban_apartment/image.jpg",
+        source: origin + "cielo.jpg",
         objetive: "Crear un departamento funcional y sustentable que optimice el uso del espacio sin sacrificar el confort.",
         requeriment: "Un dormitorio, oficina en casa, balcón con jardín vertical y domótica integrada.",
         imagens: [
@@ -95,7 +95,7 @@ const allProyects = [
         name: "Cabaña ecológica en el bosque",
         slogan: "Un refugio sostenible rodeado de naturaleza, diseñado para la desconexión total.",
         isImagen: true,
-        source: origin + "proyects/eco_cabin/image.jpg",
+        source: origin + "cielo.jpg",
         objetive: "Crear una cabaña autosuficiente que aproveche los recursos naturales del entorno.",
         requeriment: "Estructura de madera, amplios ventanales, sistema de recolección de agua de lluvia y energía solar.",
         imagens: [
@@ -122,7 +122,7 @@ const allProyects = [
         name: "Centro cultural contemporáneo",
         slogan: "Un espacio de arte y cultura con arquitectura vanguardista que fomenta la creatividad.",
         isImagen: true,
-        source: origin + "proyects/cultural_center/image.jpg",
+        source: origin + "cielo.jpg",
         objetive: "Construir un centro cultural con espacios flexibles para exposiciones, conferencias y talleres.",
         requeriment: "Salas de exposición, auditorio, cafetería y jardines interiores.",
         imagens: [
