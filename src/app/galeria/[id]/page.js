@@ -2,10 +2,18 @@
 import { usePathname } from "next/navigation"
 import galeriaData from "data/galeriaData"
 import Image from "next/image"
+import NotProyectFound from "../components/NotProyectFound"
 
 export default function Home() {
     const pathname = usePathname()
-    const newData = galeriaData.filter((item) => item.href === pathname)[0]
+    const newData = galeriaData.filter((item) => item.href === pathname)[0] ?? {}
+
+     if (!newData.name) {
+            return (
+                <NotProyectFound />
+            )
+        }
+    
     return (
         <div className="relative ">
             <div className="relative mt-10 mx-auto w-11/12 max-w-1200">
