@@ -14,7 +14,7 @@ export default function BannerForProyect({children="Proyecto de construccion", s
                 <h1 className="block w-10/12 text-2xl md:text-5xl font-bold text-primary-yellow mb-1 font-figtree text-center uppercase" >
                     {children}
                 </h1>
-                <P className="text-xl md:text-2xl text-white mb-8">
+                <P className="text-xl md:text-2xl text-white mb-8 text-center">
                     "Construyendo tus sueños, edificando el futuro."
                 </P>
                 {/* <H1>RESIDENCIA RUSTICA EN EL CORAZON DE TLAXCALA</H1>
