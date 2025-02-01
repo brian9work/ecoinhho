@@ -2,10 +2,10 @@ import origin from "@/config/isServer"
 
 export function BannerEdit({ children = "Banner", src = "write.jpg" }) {
   return (
-    <div className={"relative min-h-[75vh] bg-cover bg-center "}
+    <div className={"relative min-h-[75vh] bg-cover bg-center z-0 "}
       style={{ backgroundImage: `url(${origin + src})` }}
     >
-      <div className="absolute inset-0 bg-black/50" />
+      <div className="absolute inset-0 bg-black/50 z-0" />
       {children}
     </div>
   )

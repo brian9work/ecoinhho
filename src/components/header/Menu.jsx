@@ -19,7 +19,7 @@ export default function Menu({ menuState }) {
             >
                 <div className='w-11/12 mx-auto h-full'>
                     <MenuItems />
-                    <div className='absolute bottom-10 right-10 mr-10 mb-7 max-w-80 w-8/12 '>
+                    <div className='absolute bottom-5 right-10 mr-10 mb-7 max-w-80 w-8/12 '>
                         <ButtonLinkYellow href={""}>Contactar</ButtonLinkYellow>
                     </div>
                 </div>

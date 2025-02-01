@@ -22,7 +22,7 @@ export default function Home() {
             <p>Pagina en Desarrollo </p>
          </footer>
          <div style={{marginTop: '200vh'}}>
-            <TextAnimation>En Desarrollo</TextAnimation>
+            <TextAnimation>En_Desarrollo</TextAnimation>
          </div>
          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
       </div>

@@ -1,77 +1,50 @@
 // const origin = "https://raw.githubusercontent.com/brian9work/ecoinhho/refs/heads/main/src/assets/gifs/"
 import origin from "config/isServer"
+import allProyects from "./allProyectdata"
 
 const LinksMenu = [
     {
-        name: "Promocion",
+        name: "Promoción",
         type: "1",
         data: [
             {
-                text: "Promocion",
+                text: "Obtener Promoción",
                 url: ""
             }
         ]
     },
     {
-        name: "Construcciones",
+        name: "Proyectos",
         type: "2",
         data: [
-                { text: "Terreno mas construccion", url: "" },
-                { text: "Una planta dos recamaras", url: "" },
-                { text: "Dos plantas dos recamaras", url: "" },
-                { text: "Dos plantas tres recamaras", url: "" },
-                { text: "Proyectos", url: "" },
+            { text: allProyects[0].name, url: "" },
+            { text: allProyects[1].name, url: "" },
+            { text: allProyects[2].name, url: "" },
+            { text: allProyects[3].name, url: "" },
+            { text: "Proyectos", url: "" },
+            { text: "Promoción de vivienda", url: "" },
+            { text: "Obtener producto de línea blanca", url: "" }
         ]
     },
     {
-        name: "Sobre nossotros",
+        name: "Financiamiento",
         type: "2",
         data: [
-                { text: "Proyectos", url: "" },
-                { text: "Servicios", url: "" },
-                { text: "Obtener credito", url: "" },
-                { text: "Formulario de contacto", url: "" },
+            { text: "Niveles de servicio de FOVISSSTE", url: "" },
+            { text: "Obtener crédito", url: "" }
         ]
     },
     {
-        name: "Sobre nossotros",
+        name: "Agradecimientos",
         type: "2",
         data: [
-                { text: "Proyectos", url: "" },
-                { text: "Servicios", url: "" },
-                { text: "Obtener credito", url: "" },
-                { text: "Formulario de contacto", url: "" },
+            { text: "Obtención de imágenes", url: "" },
+            { text: "Iconos", url: "" },
+            { text: "Desarrollador de la página web", url: "" }
         ]
-    },
-    {
-        name: "Sobre nossotros",
-        type: "2",
-        data: [
-                { text: "Proyectos", url: "" },
-                { text: "Servicios", url: "" },
-                { text: "Obtener credito", url: "" },
-                { text: "Formulario de contacto", url: "" },
-        ]
-    },
-    {
-        name: "Sobre nossotros",
-        type: "2",
-        data: [
-                { text: "Proyectos", url: "" },
-                { text: "Servicios", url: "" },
-                { text: "Obtener credito", url: "" },
-                { text: "Formulario de contacto", url: "" },
-        ]
-    },
-    {
-        name: "Sobre nossotros",
-        type: "2",
-        data: [
-                { text: "Proyectos", url: "" },
-                { text: "Servicios", url: "" },
-                { text: "Obtener credito", url: "" },
-                { text: "Formulario de contacto", url: "" },
-        ]
-    },
+    }
 ]
+
+
+
 export default LinksMenu

@@ -1,53 +1,84 @@
 import { Facebook, Gmail, WhatsApp, Phone } from "data/icons"
 import Logo from "components/general/Logo"
+import menu from "data/LinksMenu"
+import Image from "next/image"
+import Link from "next/link"
+import RoutesFrontend from "@/config/routes"
+import Enlace from "./Enlace"
+
+const Item = ({ name, data }) => {
+   return (
+      <div>
+         <h3 className="text-xl font-bold mb-4 border-b border-orange-400 pb-2">{name}</h3>
+         <ul className="space-y-2">
+            {data.map((link, index) => {
+               return (
+                  <li key={index}>
+                     <Enlace 
+                        // href={link.url} 
+                     >{link.text}</Enlace>
+                  </li>
+               )
+            })}
+         </ul>
+      </div>
+   )
+}
 
 export function Footer() {
-  return (
-    <footer className="bg-black text-white py-12">
-      <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-3 gap-8 items-center">
-          <div>
-            <Logo />
-            {/* <img src="/logo.png" alt="ECOINHO S.A.S. DE C.U." className="h-24 w-auto" /> */}
-          </div>
+   return (
+      <footer className="bg-black text-white py-12">
+         <div className="container mx-auto px-4 max-w-1100">
+            <div className="w-full max-w-[400px] mx-auto mb-8">
+               <Link href={RoutesFrontend.home}>
+                  <div className="w-full h-full rounded-lg">
+                     <Image
+                        src="/ecoinhho1.png"
+                        alt="ecoinhho logo"
+                        layout="contain"
+                        width={3000}
+                        height={3000}
+                        className='w-full h-full object-contain object-center'
+                     />
+                  </div>
+                  <h1
+                     className='text-primary-yellow font-bold uppercase text-xl md:text-3xl lg:text-4xl text-center'
+                  > Ecoinhho
+                  </h1>
+               </Link>
+            </div>
+            <div className="grid md:grid-cols-3 gap-8 items-center">
+               <div>
+                  <Item name={menu[1].name} data={menu[1].data} />
+               </div>
+               <div className="grid gap-8">
+                  <Item name={menu[0].name} data={menu[0].data} />
+                  <Item name={menu[2].name} data={menu[2].data} />
+               </div>
+               <div>
+                  <Item name={menu[3].name} data={menu[3].data} />
+               </div>
+            </div>
 
-          <div>
-            <h3 className="text-xl font-bold mb-4 border-b border-orange-400 pb-2">Promociones</h3>
-            <ul className="space-y-2">
-              <li>Terreno y casa</li>
-              <li>Preventa de Lotes</li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="text-xl font-bold mb-4 border-b border-orange-400 pb-2">Servicios</h3>
-            <ul className="space-y-2">
-              <li>Construccion</li>
-              <li>Diseño</li>
-              <li>Creditos</li>
-            </ul>
-          </div>
-        </div>
-
-        <div className="text-center mt-12">
-          <p className="text-lg mb-6">"Construyendo tus sueños, edificando el futuro."</p>
-          <div className="flex justify-center gap-6">
-            <a href="#" className="hover:text-orange-400">
-              <Facebook className="w-6 h-6" />
-            </a>
-            <a href="#" className="hover:text-orange-400">
-              <WhatsApp className="w-6 h-6" />
-            </a>
-            <a href="#" className="hover:text-orange-400">
-              <Gmail className="w-6 h-6" />
-            </a>
-            <a href="#" className="hover:text-orange-400">
-              <Phone className="w-6 h-6" />
-            </a>
-          </div>
-        </div>
-      </div>
-    </footer>
-  )
+            <div className="text-center mt-12">
+               <p className="text-lg mb-6">"Construyendo tus sueños, edificando el futuro."</p>
+               <div className="flex justify-center gap-6">
+                  <a href="#" className="hover:text-orange-400">
+                     <Facebook className="w-6 h-6" />
+                  </a>
+                  <a href="#" className="hover:text-orange-400">
+                     <WhatsApp className="w-6 h-6" />
+                  </a>
+                  <a href="#" className="hover:text-orange-400">
+                     <Gmail className="w-6 h-6" />
+                  </a>
+                  <a href="#" className="hover:text-orange-400">
+                     <Phone className="w-6 h-6" />
+                  </a>
+               </div>
+            </div>
+         </div>
+      </footer>
+   )
 }
 

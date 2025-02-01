@@ -3,12 +3,12 @@ const nextConfig = {
    images: {
       remotePatterns: [
          {
-            protocol: "http",
-            hostname: "localhost",
-            pathname: "/**",   
-            // protocol: "https",
-            // hostname: "raw.githubusercontent.com",
-            // pathname: "/**",    
+            // protocol: "http",
+            // hostname: "localhost",
+            // pathname: "/**",   
+            protocol: "https",
+            hostname: "raw.githubusercontent.com",
+            pathname: "/**",    
          },
       ],
    }

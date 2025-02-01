@@ -43,7 +43,6 @@ export default function Home() {
                 <Space />
                 <TestimonialsCarousel />
                 <Space />
-                <Footer />
             </div>
         </div>
     );

@@ -38,7 +38,7 @@ export const PromotionComponent = ({ title, description, icon }) => {
 export default function Promotion() {
    return (
       <div>
-         <H3 className='text-center'>Gran</H3>
+         <H3 className='text-center'>Gran vivienda en</H3>
          <TextAnimation>PROMOCION</TextAnimation>
          <div>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 mb-16 max-w-6xl mx-auto justify-center items-center">

@@ -9,17 +9,17 @@ export default function Logo() {
             <Link href={RoutesFrontend.home}>
             <div className="relative w-28 h-12 rounded-lg overflow-hidden shadow-lg">
                 <Image
-                    // className=" bg-red-500"
                     src="/ecoinhho1.png"
                     alt="ecoinhho logo"
                     layout="contain"
-                    width={100}
-                    height={100}
+                    width={150}
+                    height={150}
                     objectFit="cover"
+                    className='w-full h-full object-contain object-center'
                     />
             </div>
             <h1
-                className='text-yellow-500 font-bold uppercase text-xl'
+                className='text-primary-yellow font-bold uppercase text-xl'
                 > Ecoinhho
             </h1>
                 </Link>
