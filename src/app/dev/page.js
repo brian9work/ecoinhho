@@ -10,39 +10,33 @@ import ServicesComponent from "@/components/home/ServicesComponent";
 import Form from "@/components/home/Form";
 import Proyects from "@/components/home/Proyects";
 import TestimonialsCarousel from "@/components/home/TestimonialsCarousel";
-import { Footer } from "@/components/general/Footer";
 import Galery from "@/components/home/Galery";
 
-const Space = () => {
-    return <div className="h-60"></div>
-}
-
 export default function Home() {
-
     return (
         <div className="relative bg-gray-50 ">
             <div className="relative ">
                 <Header />
                 <Hero />
-                <Space />
+                <div className="h-32" />
                 <Experience />
-                <Space />
+                <div className="h-48" />
                 <Promotion />
-                <Space />
+                <div className="h-32" />
                 <Obtener />
-                <Space />
+                <div className="h-32" />
                 <BannerOfCredits />
-                <Space />
+                <div className="h-32" />
                 <ServicesComponent />
-                <Space />
+                <div className="h-32" />
                 <Form />
-                <Space />
+                <div className="h-60" />
                 <Proyects />
-                <Space />
+                <div className="h-32" />
                 <Galery />
-                <Space />
+                <div className="h-32" />
                 <TestimonialsCarousel />
-                <Space />
+                <div className="h-32" />
             </div>
         </div>
     );

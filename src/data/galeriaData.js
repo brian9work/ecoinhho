@@ -138,14 +138,14 @@ const galeriaNavData = [
          { alt: "ventanas/25.jpeg", src: origin + "galeria/ventanas/25.jpeg" },
       ]
    },
-   {
-      name: "Demas",
-      imagen: origin + "/galeria/acabados/1.jpg",
-      href: RutasFrontend.galeria.demas,
-      data: [
-         { alt: "Imagen 1", src: origin + "/galeria/acabados/1.jpg" },
-      ]
-   },
+   // {
+   //    name: "Demas",
+   //    imagen: origin + "/galeria/acabados/1.jpg",
+   //    href: RutasFrontend.galeria.demas,
+   //    data: [
+   //       { alt: "Imagen 1", src: origin + "/galeria/acabados/1.jpg" },
+   //    ]
+   // },
 ]
 
 export default galeriaNavData;
