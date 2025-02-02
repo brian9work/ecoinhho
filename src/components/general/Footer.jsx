@@ -14,7 +14,7 @@ const Item = ({ name, data }) => {
                return (
                   <li key={index}>
                      <Enlace 
-                        href={link.url} 
+                        // href={link.url} 
                      >{link.text}</Enlace>
                   </li>
                )
