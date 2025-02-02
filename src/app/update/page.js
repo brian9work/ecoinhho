@@ -4,7 +4,6 @@ import Header from "components/header/Header";
 import Hero from "@/components/home/Hero";
 import Experience from "@/components/home/Experience";
 import Promotion from "@/components/home/Promotion";
-import Obtener from "@/components/home/Obtener";
 
 export default function Home() {
 
@@ -18,7 +17,6 @@ export default function Home() {
                 <div className="h-28 md:h-48" />
                 <Promotion />
                 <div className="h-20 md:h-32" />
-                <Obtener />
             </div>
         </div>
     );
