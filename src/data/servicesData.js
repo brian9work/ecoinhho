@@ -30,7 +30,7 @@ const servicesData = [
     {
         title: "Terrenos con plusvalia",
         description: "Oportunidad de crecimiento en la zona.",
-        image: origin + "servicesImg/plusvalia.jpg",
+        image: origin + "servicesImg/plusvalia2.jpg",
     },
 ]
 

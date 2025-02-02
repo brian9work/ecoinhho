@@ -16,8 +16,8 @@ export default function Obtener() {
                <Image
                   src={`${origin}house.png`}
                   alt='house'
-                  width={100}
-                  height={100}
+                  width={1000}
+                  height={800}
                   style={{
                      objectFit: 'contain',
                      display: 'block',

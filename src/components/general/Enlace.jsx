@@ -1,8 +1,9 @@
 import Link from 'next/link'
 import React from 'react'
 
-export default function Enlace({ href = 'https://google.com', children }) {
-   if (href.includes('http')) {
+export default function Enlace({ href = '', children }) {
+
+   if (href === '') {
       return (
          <a
             className='hover:text-orange-400'

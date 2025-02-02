@@ -14,7 +14,7 @@ const Item = ({ name, data }) => {
                return (
                   <li key={index}>
                      <Enlace 
-                        // href={link.url} 
+                        href={link.url} 
                      >{link.text}</Enlace>
                   </li>
                )
@@ -54,8 +54,9 @@ export function Footer() {
                   <Item name={menu[0].name} data={menu[0].data} />
                   <Item name={menu[2].name} data={menu[2].data} />
                </div>
-               <div>
+               <div className="grid gap-8">
                   <Item name={menu[3].name} data={menu[3].data} />
+                  <Item name={menu[4].name} data={menu[4].data} />
                </div>
             </div>
 
