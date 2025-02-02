@@ -31,6 +31,8 @@ const LinksMenu = [
         type: "2",
         data: [
             { text: "Niveles de servicio de FOVISSSTE", url: "" },
+            { text: "linea de credito CONSTRUYES", url: "" },
+            { text: "Proceso digital del seguro de calidad", url: "" },
             { text: "Obtener crédito", url: "" }
         ]
     },

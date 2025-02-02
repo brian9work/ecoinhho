@@ -2,9 +2,9 @@ import credito from "data/nivelesServicioFovviste"
 
 export default function Home() {
    return (
-      <div>
-         <h1 className="text-center mt-10 text-2xl lg:text-4xl text-primary-yellow font-bold">Niveles de Servicio FOVISSSTE</h1>
-         <div className="mt-10 w-11/12 max-w-900 mx-auto">
+      <div className="py-20">
+         <h1 className="text-center mt-5 mb-10 text-4xl lg:text-6xl text-primary-yellow font-bold">Niveles de Servicio FOVISSSTE</h1>
+         <div className="mt-10">
             {credito.map((etapa, index) => {
                return (
                   <div className="md:flex" key={index}>
