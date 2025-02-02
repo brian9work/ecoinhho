@@ -48,10 +48,10 @@ export default function Promotion() {
             </div>
 
             <div className="text-center mb-8">
-               <p className='text-center text-lg'>
-                  <b className='text-5xl font-playfair'>"</b>
+               <p className='text-center text-lg md:text-xl lg:text-2xl font-Catamaran'>
+                  <b className='text-5xl'>"</b>
                   Una localidad tranquila, cerca de escuelas, negocios, avenidas y hospitales
-                  <b className='text-5xl font-playfair'>"</b>
+                  <b className='text-5xl'>"</b>
                </p>
                <br />
                <div className='w-8/12 md:w-3/12 mt-5 mx-auto'>

@@ -4,13 +4,13 @@ import features from '@/data/caracteristicasElRule'
 import { AnimatedCSSTitle } from '../general/TextAnimation'
 import { ButtonLinkYellow } from '../general/Button'
 import Contact, { Messages } from '@/config/contact'
-import BannerOfCredits from '../banners/BannerOfCredits'
 
 export default function Caracteristicas() {
    return (
       <div>
          <AnimatedCSSTitle
             animated='animate__zoomInUp'
+            delay='faster'
          >Caracteristicas</AnimatedCSSTitle>
          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-16 max-w-6xl mx-auto justify-center items-center mt-14">
             {features.map((feature, index) => (
@@ -64,7 +64,7 @@ export default function Caracteristicas() {
                <p className='text-center text-lg md:text-xl -translate-y-2'>Terrenos disponibles</p>
             </div>
          </div>
-         <div className='w-10/12 mx-auto max-w-96 mt-5 mb-40'>
+         <div className='w-10/12 mx-auto max-w-96 mt-5'>
             <ButtonLinkYellow href={Contact(Messages.promocion)}>Contactar</ButtonLinkYellow>
          </div>
       </div>

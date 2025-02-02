@@ -42,7 +42,7 @@ const allProyects = [
         name: "Casa minimalista en las montañas",
         slogan: "Diseño simple y elegante que se integra con la naturaleza, ofreciendo vistas espectaculares y máxima comodidad.",
         isImagen: true,
-        source: origin + "cielo.jpg",
+        source: origin + "cielo2.jpg",
         objetive: "Construir una casa que ofrezca tranquilidad y conexión con la naturaleza, con materiales de bajo impacto ambiental.",
         requeriment: "Grandes ventanales, dos niveles, terraza panorámica y chimenea ecológica.",
         imagens: [
@@ -70,7 +70,7 @@ const allProyects = [
         name: "Departamento urbano sostenible",
         slogan: "Un espacio moderno en la ciudad con diseño inteligente y enfoque en la eficiencia energética.",
         isImagen: true,
-        source: origin + "cielo.jpg",
+        source: origin + "cielo3.jpg",
         objetive: "Crear un departamento funcional y sustentable que optimice el uso del espacio sin sacrificar el confort.",
         requeriment: "Un dormitorio, oficina en casa, balcón con jardín vertical y domótica integrada.",
         imagens: [
@@ -122,7 +122,7 @@ const allProyects = [
         name: "Centro cultural contemporáneo",
         slogan: "Un espacio de arte y cultura con arquitectura vanguardista que fomenta la creatividad.",
         isImagen: true,
-        source: origin + "cielo.jpg",
+        source: origin + "cielo2.jpg",
         objetive: "Construir un centro cultural con espacios flexibles para exposiciones, conferencias y talleres.",
         requeriment: "Salas de exposición, auditorio, cafetería y jardines interiores.",
         imagens: [

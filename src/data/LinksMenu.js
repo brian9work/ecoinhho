@@ -21,7 +21,7 @@ const LinksMenu = [
             { text: allProyects[1].name, url: "" },
             { text: allProyects[2].name, url: "" },
             { text: allProyects[3].name, url: "" },
-            { text: "Proyectos", url: "" },
+            { text: "Obtener terreno mas vivienda", url: "" },
             { text: "Promoción de vivienda", url: "" },
             { text: "Obtener producto de línea blanca", url: "" }
         ]

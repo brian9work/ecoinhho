@@ -15,8 +15,8 @@ export default function ServicesComponent() {
                      <div className="relative h-56">
                         <div className="h-full w-full bg-cover bg-center">
                            <Image
-                              width={100}
-                              height={100}
+                              width={450}
+                              height={450}
                               src={service.image || "/placeholder.svg"}
                               alt={service.title}
                               className="object-cover w-full h-full"

@@ -1,8 +1,7 @@
 import React from 'react'
 import galeryData from '@/data/galeriaData'
-import { AnimatedCSSTitle, TextAnimation } from '../general/TextAnimation'
-import Link from 'next/link'
-import { ButtonLinkYellow, ButtonLinkYellowSecondary } from '../general/Button'
+import { AnimatedCSSTitle } from '../general/TextAnimation'
+import { ButtonLinkYellowSecondary } from '../general/Button'
 
 export default function Galery() {
     return (

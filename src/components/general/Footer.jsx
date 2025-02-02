@@ -1,5 +1,4 @@
 import { Facebook, Gmail, WhatsApp, Phone } from "data/icons"
-import Logo from "components/general/Logo"
 import menu from "data/LinksMenu"
 import Image from "next/image"
 import Link from "next/link"
@@ -29,7 +28,7 @@ export function Footer() {
    return (
       <footer className="bg-black text-white py-12">
          <div className="container mx-auto px-4 max-w-1100">
-            <div className="w-full max-w-[400px] mx-auto mb-8">
+            <div className="w-full max-w-[200px] mx-auto mb-8">
                <Link href={RoutesFrontend.home}>
                   <div className="w-full h-full rounded-lg">
                      <Image

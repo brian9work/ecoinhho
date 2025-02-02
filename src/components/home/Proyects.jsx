@@ -2,8 +2,7 @@ import React from 'react'
 import { H3 } from 'components/general/Texts'
 import { AnimatedCSSTitle } from 'components/general/TextAnimation'
 import ProyectGeneralItem from './items/ProyectGeneralItem'
-import Link from 'next/link'
-import { ButtonLinkYellowSecondary, ButtonYellow } from '../general/Button'
+import { ButtonLinkYellowSecondary } from '../general/Button'
 
 const url = "/house.png"
 

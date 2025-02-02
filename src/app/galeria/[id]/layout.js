@@ -1,9 +1,7 @@
 "use client"
 
 import "@/app/globals.css"
-import Banner, { BannerEdit } from "@/components/banners/Banner";
-import { Footer } from "@/components/general/Footer";
-import Header from "@/components/header/Header";
+import { BannerEdit } from "@/components/banners/Banner";
 import NavTabs from "@/components/nav/Nav";
 import navData from "@/data/galeriaData"
 

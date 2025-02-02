@@ -59,7 +59,7 @@ export function TextAnimationLeft({ children }) {
     )
 }
 
-export function AnimatedCSS({ children = "No hay texto", animated = "animate__fadeInUp", delay = "animate__slower" }) {
+export function AnimatedCSS({ children = "No hay texto", animated = "animate__fadeInUp", delay = "animate__fast" }) {
     const { isVisible, topPercentage, elementRef } = useElementVisibility();
     return (
         <div

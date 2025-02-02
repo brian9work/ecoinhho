@@ -12,10 +12,12 @@ export default {
         playfair: ['"Playfair Display"', "serif"],
         merriweather: ['"Merriweather"', "serif"],
         Karantina: ['"Karantina"', "serif"],
+        Catamaran: ['"Catamaran"', "serif"],
       },
       colors: {
         primary: {
-          yellow: "#ff9500",
+          yellow: "#F7941D",
+          // yellow: "#ff9500",
           // yellow: "#ff95ff",
           light: "#F3F4F6",
           DEFAULT: "#3B82F6",

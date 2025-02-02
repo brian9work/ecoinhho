@@ -1,5 +1,5 @@
 import React from 'react'
-import { H1, H2, H3, P } from 'components/general/Texts'
+import { H3, P } from 'components/general/Texts'
 
 export default function Experience() {
     return (

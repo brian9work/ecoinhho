@@ -18,25 +18,25 @@ export default function Home() {
             <div className="relative ">
                 <Header />
                 <Hero />
-                <div className="h-32" />
+                <div className="h-20 md:h-32" />
                 <Experience />
-                <div className="h-48" />
+                <div className="h-28 md:h-48" />
                 <Promotion />
-                <div className="h-32" />
+                <div className="h-20 md:h-32" />
                 <Obtener />
-                <div className="h-32" />
+                <div className="h-20 md:h-32" />
                 <BannerOfCredits />
-                <div className="h-32" />
+                <div className="h-20 md:h-32" />
                 <ServicesComponent />
-                <div className="h-32" />
+                <div className="h-20 md:h-32" />
                 <Form />
-                <div className="h-60" />
+                <div className="h-20 md:h-60" />
                 <Proyects />
-                <div className="h-32" />
+                <div className="h-20 md:h-32" />
                 <Galery />
-                <div className="h-32" />
+                <div className="h-20 md:h-32" />
                 <TestimonialsCarousel />
-                <div className="h-32" />
+                <div className="h-20 md:h-32" />
             </div>
         </div>
     );

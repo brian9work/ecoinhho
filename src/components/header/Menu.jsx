@@ -1,7 +1,6 @@
 import MenuItems from './MenuItems';
 import { ButtonLinkYellow } from 'components/general/Button';
 
-
 export default function Menu({ menuState }) {
     const [menu, setMenu] = menuState
 

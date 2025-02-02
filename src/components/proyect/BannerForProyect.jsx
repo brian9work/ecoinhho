@@ -1,6 +1,6 @@
 import React from 'react'
 import { BannerEdit } from '../banners/Banner'
-import { H1, H2, H4, P } from '../general/Texts'
+import { H4, P } from '../general/Texts'
 import { ButtonLinkYellow } from '../general/Button'
 import Contact, { Messages } from '@/config/contact'
 
