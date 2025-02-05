@@ -3,6 +3,7 @@ import { H3 } from 'components/general/Texts'
 import { AnimatedCSSTitle } from 'components/general/TextAnimation'
 import ProyectGeneralItem from './items/ProyectGeneralItem'
 import { ButtonLinkYellowSecondary } from '../general/Button'
+import RoutesFrontend from '@/config/routes'
 
 const url = "/house.png"
 
@@ -19,7 +20,10 @@ export default function Proyects() {
                 <ProyectGeneralItem />
             </div>
             <div className='mt-10 w-8/12 max-w-96 mx-auto'>
-                <ButtonLinkYellowSecondary href='' className='mt-10'>Ver mas proyectos</ButtonLinkYellowSecondary>
+                <ButtonLinkYellowSecondary 
+                    href={RoutesFrontend.proyectos.home+"1"} 
+                    className='mt-10'
+                >Ver mas proyectos</ButtonLinkYellowSecondary>
 
             </div>
         </div>

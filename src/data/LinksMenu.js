@@ -9,9 +9,29 @@ const LinksMenu = [
         type: "1",
         data: [
             {
-                text: "Obtener Promoción",
-                url: RoutesFrontend.elTule
+                text: "Obtener Promoción de Vivienda",
+                url: RoutesFrontend.elTule.home
             }
+        ]
+    },
+    {
+        name: "Financiamiento",
+        type: "2",
+        data: [
+            { text: "Obtener crédito", url: RoutesFrontend.credito.home },
+            { text: "Niveles de servicio de FOVISSSTE", url: RoutesFrontend.credito.fovissste },
+            { text: "linea de credito CONSTRUYES", url: RoutesFrontend.credito.construyes },
+            { text: "Proceso digital del seguro de calidad", url: RoutesFrontend.credito.seguroDeCalidad },
+        ]
+    },
+    {
+        name: "Promociones",
+        type: "2",
+        data: [
+            { text: "Metodos de financiamiento", url: RoutesFrontend.credito.home },
+            { text: "Obtener terreno mas vivienda", url: RoutesFrontend.elTule.home },
+            { text: "Promoción de vivienda", url: RoutesFrontend.elTule.home },
+            { text: "Obtener producto de línea blanca", url: RoutesFrontend.elTule.home }
         ]
     },
     {
@@ -22,19 +42,9 @@ const LinksMenu = [
             { text: allProyects[1].name, url: allProyects[1].href },
             { text: allProyects[2].name, url: allProyects[2].href },
             { text: allProyects[3].name, url: allProyects[3].href },
-            { text: "Obtener terreno mas vivienda", url: RoutesFrontend.elTule },
-            { text: "Promoción de vivienda", url: RoutesFrontend.elTule },
-            { text: "Obtener producto de línea blanca", url: RoutesFrontend.elTule }
-        ]
-    },
-    {
-        name: "Financiamiento",
-        type: "2",
-        data: [
-            { text: "Obtener crédito", url: RoutesFrontend.credito },
-            { text: "Niveles de servicio de FOVISSSTE", url: RoutesFrontend.credito.fovissste },
-            { text: "linea de credito CONSTRUYES", url: RoutesFrontend.credito.construyes },
-            { text: "Proceso digital del seguro de calidad", url: RoutesFrontend.credito.seguroDeCalidad },
+            { text: "Obtener terreno mas vivienda", url: RoutesFrontend.elTule.home },
+            { text: "Promoción de vivienda", url: RoutesFrontend.elTule.home },
+            { text: "Obtener producto de línea blanca", url: RoutesFrontend.elTule.home }
         ]
     },
     {
@@ -43,7 +53,7 @@ const LinksMenu = [
         data: [
             { text: "Contacto Directo", url: Contact(Messages.header) },
             { text: "Servicios", url: Contact(Messages.header) },
-            { text: "Obtener crédito", url: RoutesFrontend.credito },
+            { text: "Obtener crédito", url: RoutesFrontend.credito.home },
         ]
     },
     {

@@ -1,6 +1,7 @@
 import { H2, P } from "components/general/Texts"
 import { ButtonLinkYellow } from "components/general/Button"
 import origin from "@/config/isServer"
+import Contact, { Messages } from "@/config/contact"
 
 export default function Hero() {
   return (
@@ -23,7 +24,7 @@ export default function Hero() {
           "Construyendo tus sueños, edificando el futuro."
         </P>
         <div className='w-8/12 md:w-3/12 mt-5'>
-          <ButtonLinkYellow href={``}>Contactar</ButtonLinkYellow>
+          <ButtonLinkYellow href={Contact(Messages.header)}>Contactar</ButtonLinkYellow>
         </div>
       </div>
     </section>

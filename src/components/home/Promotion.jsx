@@ -4,8 +4,10 @@ import { H3 } from 'components/general/Texts'
 import { AnimatedCSS,  TextAnimation } from 'components/general/TextAnimation'
 import 'animate.css';
 import features from 'data/promotions'
-import { ButtonLinkYellow } from 'components/general/Button';
+import { ButtonLinkYellow, ButtonLinkYellowSecondary } from 'components/general/Button';
 import Image from 'next/image';
+import Contact, { Messages } from '@/config/contact';
+import RoutesFrontend from '@/config/routes';
 
 export const PromotionComponent = ({ title, description, icon }) => {
    return (
@@ -55,9 +57,13 @@ export default function Promotion() {
                </p>
                <br />
                <div className='w-8/12 md:w-3/12 mt-5 mx-auto'>
-                  <ButtonLinkYellow href={``}>Contactar</ButtonLinkYellow>
+                  <ButtonLinkYellow href={Contact(Messages.promocion)}>Contactar</ButtonLinkYellow>
                </div>
-               <p className="mt-4 text-sm text-gray-600">Ver mas informacion</p>
+               <div className='w-8/12 md:w-3/12 mt-5 mx-auto'>
+                  <ButtonLinkYellowSecondary href={RoutesFrontend.elTule.home}>
+                     Ver mas informacion del proyecto
+                  </ButtonLinkYellowSecondary>
+               </div>
             </div>
 
             <p className="text-center text-sm text-gray-500">

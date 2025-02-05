@@ -1,3 +1,4 @@
+import Contact, { Messages } from '@/config/contact';
 import MenuItems from './MenuItems';
 import { ButtonLinkYellow } from 'components/general/Button';
 
@@ -17,9 +18,9 @@ export default function Menu({ menuState }) {
                 }}
             >
                 <div className='w-11/12 mx-auto h-full'>
-                    <MenuItems />
+                    <MenuItems event={setMenu} />
                     <div className='absolute bottom-5 right-10 mr-10 mb-7 max-w-80 w-8/12 '>
-                        <ButtonLinkYellow href={""}>Contactar</ButtonLinkYellow>
+                        <ButtonLinkYellow href={Contact(Messages.header)}>Contactar</ButtonLinkYellow>
                     </div>
                 </div>
             </div>
