@@ -6,22 +6,27 @@ const socialData = [
     {
         image: <WhatsApp />,
         title: "Whatsapp",
-        contact: "749 108 6498",
-    },
-    {
-        image: <Facebook />,
-        title: "Whatsapp",
-        contact: "749 108 6498",
-    },
-    {
-        image: <Gmail />,
-        title: "Whatsapp",
-        contact: "749 108 6498",
-    },
-    {
+        contact: "246 141 2794",
+    }, {
         image: <Phone />,
         title: "Whatsapp",
-        contact: "749 108 6498",
+        contact: "246 141 2794",
+    }, {
+        image: <Gmail />,
+        title: "Whatsapp",
+        contact: "ingenieria_construccion@ecoinhho.net",
+    }, {
+        image: <WhatsApp />,
+        title: "Whatsapp",
+        contact: "246 135 1996",
+    }, {
+        image: <Phone />,
+        title: "Whatsapp",
+        contact: "246 135 1996",
+    }, {
+        image: <Gmail />,
+        title: "Whatsapp",
+        contact: "administracion@ecoinhho.net",
     },
 ]
 
