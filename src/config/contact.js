@@ -8,7 +8,7 @@ export const Messages = {
 }
 
 const Contact = (message) =>{
-    const phone= "7491086498"
+    const phone= "2461412794"
     const urlWhatsapp = "https://api.whatsapp.com/send?phone=52"+phone+"&text="+message
 
     return urlWhatsapp
