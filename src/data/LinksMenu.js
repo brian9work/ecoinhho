@@ -38,10 +38,10 @@ const LinksMenu = [
         name: "Proyectos",
         type: "2",
         data: [
-            { text: allProyects[0].name, url: allProyects[0].href },
-            { text: allProyects[1].name, url: allProyects[1].href },
-            { text: allProyects[2].name, url: allProyects[2].href },
-            { text: allProyects[3].name, url: allProyects[3].href },
+            // { text: allProyects[0].name, url: allProyects[0].href },
+            // { text: allProyects[1].name, url: allProyects[1].href },
+            // { text: allProyects[2].name, url: allProyects[2].href },
+            // { text: allProyects[3].name, url: allProyects[3].href },
             { text: "Obtener terreno mas vivienda", url: RoutesFrontend.elTule.home },
             { text: "Promoción de vivienda", url: RoutesFrontend.elTule.home },
             { text: "Obtener producto de línea blanca", url: RoutesFrontend.elTule.home }
