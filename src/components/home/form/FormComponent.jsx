@@ -14,10 +14,10 @@ export default function FormComponent() {
     })
     return (
         <form className='bg-white rounded-md py-8 w-full md:w-8/12 mx-auto'>
-            <p>name: {values.name}</p>
+            {/* <p>name: {values.name}</p>
             <p>phone: {values.phone}</p>
             <p>assunt: {values.assunt}</p>
-            <p>message: {values.message}</p>
+            <p>message: {values.message}</p> */}
             <div className='w-11/12 mx-auto grid gap-1'>
                 <H2 className='text-center text-2xl uppercase font-bold mb-2'>Formulario de Contacto</H2>
                 <P className='text-center mb-6' >Si tienes preguntas o ideas que te gustaría compartir, envíanos un mensaje.</P>

@@ -11,14 +11,14 @@ export const Messages = {
 
 const Contact = (message) =>{
     const phone= "2461412794"
-    const urlWhatsapp = "https://api.whatsapp.com/send?phone=52"+phone+"&text="+message
+    const urlWhatsapp = "https://api.whatsapp.com/send?phone=52"+phone+"&text="+encodeURIComponent(message)
 
     return urlWhatsapp
 }
 export const Developer = () =>{
     const message = "Hola, me gustaría saber más sobre el desarrollador de la página web."
     const phone= "7491086498"
-    const urlWhatsapp = "https://api.whatsapp.com/send?phone=52"+phone+"&text="+message
+    const urlWhatsapp = "https://api.whatsapp.com/send?phone=52"+phone+"&text="+encodeURIComponent(message)
 
     return urlWhatsapp
 }
