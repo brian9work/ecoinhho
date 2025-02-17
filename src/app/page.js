@@ -8,7 +8,8 @@ import Obtener from "@/components/home/Obtener";
 import BannerOfCredits from "@/components/banners/BannerOfCredits";
 import ServicesComponent from "@/components/home/ServicesComponent";
 import Form from "@/components/home/Form";
-import Proyects from "@/components/el-tule/Proyects";
+import Proyects from "@/components/home/Proyects";
+import Galery from "@/components/home/Galery";
 
 export default function Home() {
    return (
@@ -29,7 +30,12 @@ export default function Home() {
             <div className="h-20 md:h-32" />
             <Form />
             <div className="h-20 md:h-60" />
-            {/* <Proyects /> */}
+            <Proyects />
+            <div className="h-20 md:h-32" />
+            <Galery />
+            <div className="h-20 md:h-32" />
+            {/* <TestimonialsCarousel />
+            <div className="h-20 md:h-32" /> */}
          </div>
       </div>
    );

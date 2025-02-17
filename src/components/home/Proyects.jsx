@@ -19,13 +19,12 @@ export default function Proyects() {
             >
                 <ProyectGeneralItem />
             </div>
-            <div className='mt-10 w-8/12 max-w-96 mx-auto'>
+            {/* <div className='mt-10 w-8/12 max-w-96 mx-auto'>
                 <ButtonLinkYellowSecondary 
                     href={RoutesFrontend.proyectos.home+"1"} 
                     className='mt-10'
                 >Ver mas proyectos</ButtonLinkYellowSecondary>
-
-            </div>
+            </div> */}
         </div>
     )
 }
