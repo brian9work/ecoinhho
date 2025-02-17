@@ -28,6 +28,27 @@ const socialData = [
         title: "Whatsapp",
         contact: "administracion@ecoinhho.net",
     },
+     
+    // {
+    //     image: <WhatsApp />,
+    //     title: "Whatsapp",
+    //     contact: "749 108 6498",
+    // },
+    // {
+    //     image: <Facebook />,
+    //     title: "Whatsapp",
+    //     contact: "749 108 6498",
+    // },
+    // {
+    //     image: <Gmail />,
+    //     title: "Whatsapp",
+    //     contact: "749 108 6498",
+    // },
+    // {
+    //     image: <Phone />,
+    //     title: "Whatsapp",
+    //     contact: "749 108 6498",
+    // },
 ]
 
 export default socialData

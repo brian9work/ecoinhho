@@ -60,7 +60,7 @@ export default function Promotion() {
                   <ButtonLinkYellow href={Contact(Messages.promocion)}>Contactar</ButtonLinkYellow>
                </div>
                <div className='w-8/12 md:w-3/12 mt-5 mx-auto'>
-                  <ButtonLinkYellowSecondary href={RoutesFrontend.elTule.home}>
+                  <ButtonLinkYellowSecondary href={RoutesFrontend.elTule.production}>
                      Ver mas informacion del proyecto
                   </ButtonLinkYellowSecondary>
                </div>
