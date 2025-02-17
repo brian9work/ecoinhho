@@ -24,6 +24,12 @@ const RoutesFrontend = {
     },
     proyectos: {
         home: '/proyecto/',
+    },
+    agradecimientos: {
+        home: '/agradecimientos/',
+        freepik: '/agradecimientos/freepik',
+        lordIcon: '/agradecimientos/lordicon',
+        unsplash: '/agradecimientos/unsplash',
     }
 }
 

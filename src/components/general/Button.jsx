@@ -108,7 +108,7 @@ export function ButtonLinkYellowSecondary({ href = 'https://google.com', childre
                     border-primary-yellow 
                     transition-all
                     opacity-80
-                     hover:bg-primary-yellow hover:-translate-y-1 hover:w-full hover:opacity-100 hover:text-black
+                     hover:bg-primary-yellow hover:-translate-y-1 hover:w-full hover:opacity-100 hover:text-white
                     `}
             // hover:bg-white/90 hover:text-primary-yellow
             >

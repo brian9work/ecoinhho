@@ -6,8 +6,8 @@ import 'animate.css';
 import features from 'data/promotions'
 import { ButtonLinkYellow, ButtonLinkYellowSecondary } from 'components/general/Button';
 import Image from 'next/image';
-import RoutesFrontend from '@/config/routes';
 import Contact, { Messages } from '@/config/contact';
+import RoutesFrontend from '@/config/routes';
 
 export const PromotionComponent = ({ title, description, icon }) => {
    return (
