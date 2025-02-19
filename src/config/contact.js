@@ -9,6 +9,14 @@ export const Messages = {
     },
 }
 
+export const Call = () => {
+    return "tel:+522461412794"
+}
+
+export const Mail = () => {
+    return "https://mail.google.com/mail/?view=cm&fs=1&to=ingenieria_construccion@ecoinhho.net"
+}
+
 const Contact = (message) =>{
     const phone= "2461412794"
     const urlWhatsapp = "https://api.whatsapp.com/send?phone=52"+phone+"&text="+encodeURIComponent(message)

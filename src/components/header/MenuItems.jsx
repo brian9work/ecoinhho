@@ -27,6 +27,7 @@ export default function MenuItems({event}) {
                                  event(false)
                               }}
                            >
+                              <CategoryText>{link.name}</CategoryText>
                               <Enlace href={l.url}>
                                  <PrincipalText>{l.text}</PrincipalText>
                               </Enlace>

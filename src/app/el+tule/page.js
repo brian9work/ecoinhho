@@ -7,6 +7,7 @@ import BannerOfCredits from "@/components/banners/BannerOfCredits";
 import Documentos from "@/components/el-tule/Documentos";
 import BannerForProyect from "@/components/proyect/BannerForProyect";
 import Proyects from "@/components/el-tule/Proyects";
+import Location from "@/components/el-tule/Location";
 
 const Space = () => <div className="h-60"></div>
 
@@ -21,6 +22,8 @@ export default function Home() {
                 <Caracteristicas />
                 <div className="h-20 md:h-32" />
                 <BannerOfCredits />
+                <div className="h-20 md:h-32" />
+                <Location />
                 <div className="h-20 md:h-32" />
                 <Documentos />
                 <div className="h-20 md:h-32" />

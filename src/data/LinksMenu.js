@@ -5,11 +5,11 @@ import Contact, { Developer, Messages } from "@/config/contact"
 
 const LinksMenu = [
     {
-        name: "Promoción",
-        type: "1",
+        name: "Terrenos disponibles",
+        type: "2",
         data: [
             {
-                text: "Obtener Promoción de Vivienda",
+                text: "El tule",
                 url: RoutesFrontend.elTule.home
             }
         ]

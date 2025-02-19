@@ -9,7 +9,9 @@ export default function SocialMedia() {
                 <H2 className='text-center text-2xl uppercase font-bold'>Redes de Contacto</H2>
                 {socialData.map((social, index) => {
                     return (
-                        <div
+                        <a
+                            href={social.url}
+                            target='_blank'
                             className='w-10/12 mx-auto shadow-sm rounded-md p-5 my-2 flex justify-start items-center gap-3 hover:bg-primary-yellow/15'
                             key={index}
                         >
@@ -21,7 +23,7 @@ export default function SocialMedia() {
                                 <h4 className='font-bold'>{social.contact}</h4>
                                 <p>{social.title}</p>
                             </div>
-                        </div>
+                        </a>
                     )
                 })}
             </div>

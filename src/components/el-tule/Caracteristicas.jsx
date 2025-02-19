@@ -64,6 +64,14 @@ export default function Caracteristicas() {
                <p className='text-center text-lg md:text-xl -translate-y-2'>Terrenos disponibles</p>
             </div>
          </div>
+         <div className='mt-5 w-11/12 mx-auto max-w-1200'>
+
+            <p className='text-center text-lg md:text-xl lg:text-2xl font-Catamaran flex gap-2'>
+               <b className='text-xl md:text-3xl lg:text-5xl text-primary-yellow'>"</b>
+               Disfruta la vida que sueñas en tu nuevo hogar en San Lucas Cuauhtelulpan. Disfrutando los mejores momentos con tu familia y atesorar cada momento especial.
+               <b className='text-xl md:text-3xl lg:text-5xl text-primary-yellow'>"</b>
+            </p>
+         </div>
          <div className='w-10/12 mx-auto max-w-96 mt-5'>
             <ButtonLinkYellow href={Contact(Messages.promocion)}>Contactar</ButtonLinkYellow>
          </div>
