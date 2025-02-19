@@ -21,16 +21,17 @@ export default function Header() {
                         <Logo />
                     </div>
                     <div className='col-span-3 flex justify-end cursor-pointer'>
-                        <div onClick={() => setMenu(!menu)}>
+                        <div onClick={() => setMenu(!menu)} className='flex items-center border-2 border-white rounded-xl p-2'>
                             {menu ?
                                 <TiChevronRight 
-                                    className='text-white text-6xl'
+                                className='text-white text-3xl'
                                 />
-                            :
+                                :
                                 <TiThMenu
-                                    className='text-white text-6xl'
+                                className='text-white text-3xl'
                                 />
                             }
+                            <h3 className='text-white bold mr-3'>Menu</h3>
                         </div>
                     </div>
                 </div>

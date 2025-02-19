@@ -28,25 +28,25 @@ const LinksMenu = [
         name: "Promociones",
         type: "2",
         data: [
-            { text: "Metodos de financiamiento", url: RoutesFrontend.credito.home },
-            { text: "Obtener terreno mas vivienda", url: RoutesFrontend.elTule.home },
-            { text: "Promoción de vivienda", url: RoutesFrontend.elTule.home },
-            { text: "Obtener producto de línea blanca", url: RoutesFrontend.elTule.home }
+            { text: "Obtener producto de línea blanca", url: RoutesFrontend.elTule.home,
+              description: "¡Obtén un producto de línea blanca al adquirir tu terreno con nosotros!." 
+            },
+            
         ]
     },
-    {
-        name: "Proyectos",
-        type: "2",
-        data: [
-            // { text: allProyects[0].name, url: allProyects[0].href },
-            // { text: allProyects[1].name, url: allProyects[1].href },
-            // { text: allProyects[2].name, url: allProyects[2].href },
-            // { text: allProyects[3].name, url: allProyects[3].href },
-            { text: "Obtener terreno mas vivienda", url: RoutesFrontend.elTule.home },
-            { text: "Promoción de vivienda", url: RoutesFrontend.elTule.home },
-            { text: "Obtener producto de línea blanca", url: RoutesFrontend.elTule.home }
-        ]
-    },
+    // {
+    //     name: "Proyectos",
+    //     type: "2",
+    //     data: [
+    //         // { text: allProyects[0].name, url: allProyects[0].href },
+    //         // { text: allProyects[1].name, url: allProyects[1].href },
+    //         // { text: allProyects[2].name, url: allProyects[2].href },
+    //         // { text: allProyects[3].name, url: allProyects[3].href },
+    //         { text: "Obtener terreno mas vivienda", url: RoutesFrontend.elTule.home },
+    //         { text: "Promoción de vivienda", url: RoutesFrontend.elTule.home },
+    //         { text: "Obtener producto de línea blanca", url: RoutesFrontend.elTule.home }
+    //     ]
+    // },
     {
         name: "Sobre nosotros",
         type: "2",

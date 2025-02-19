@@ -5,7 +5,8 @@ import Link from "next/link"
 import RoutesFrontend from "@/config/routes"
 import Enlace from "./Enlace"
 
-const Item = ({ name, data }) => {
+const Item = ({ items }) => {
+   const { name, data } = items
    return (
       <div>
          <h3 className="text-xl font-bold mb-4 border-b border-orange-400 pb-2">{name}</h3>
@@ -13,8 +14,8 @@ const Item = ({ name, data }) => {
             {data.map((link, index) => {
                return (
                   <li key={index}>
-                     <Enlace 
-                        href={link.url} 
+                     <Enlace
+                        href={link.url}
                      >{link.text}</Enlace>
                   </li>
                )
@@ -47,16 +48,16 @@ export function Footer() {
                </Link>
             </div>
             <div className="grid md:grid-cols-3 gap-8 items-center">
-               <div>
-                  <Item name={menu[1].name} data={menu[1].data} />
+               <div className="grid gap-8">
+                  <Item items={menu[0]} />
+                  <Item items={menu[1]} />
                </div>
                <div className="grid gap-8">
-                  <Item name={menu[0].name} data={menu[0].data} />
-                  <Item name={menu[2].name} data={menu[2].data} />
+                  <Item items={menu[2]} />
+                  <Item items={menu[3]} />
                </div>
                <div className="grid gap-8">
-                  <Item name={menu[3].name} data={menu[3].data} />
-                  <Item name={menu[4].name} data={menu[4].data} />
+                  <Item items={menu[4]} />
                </div>
             </div>
 
