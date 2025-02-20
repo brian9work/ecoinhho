@@ -2,7 +2,7 @@
 import "@/app/globals.css"
 import Header from "components/header/Header";
 import { useState } from "react";
-import Caracteristicas from "@/components/el-tule/Caracteristicas";
+import { CaracteristicasElTule } from "@/components/el-tule/Caracteristicas";
 import BannerOfCredits from "@/components/banners/BannerOfCredits";
 import Documentos from "@/components/el-tule/Documentos";
 import BannerForProyect from "@/components/proyect/BannerForProyect";
@@ -19,7 +19,7 @@ export default function Home() {
                 <Header />
                 <BannerForProyect src={"familia.jpg"}>El Tule</BannerForProyect>
                 <div className="h-28 md:h-48" />
-                <Caracteristicas />
+                <CaracteristicasElTule />
                 <div className="h-20 md:h-32" />
                 <BannerOfCredits />
                 <div className="h-20 md:h-32" />

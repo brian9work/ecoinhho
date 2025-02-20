@@ -11,6 +11,10 @@ const LinksMenu = [
             {
                 text: "El tule",
                 url: RoutesFrontend.elTule.home
+            },
+            {
+                text: "Las Terrazas Residencial",
+                url: RoutesFrontend.terrazas.home
             }
         ]
     },

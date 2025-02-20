@@ -19,8 +19,10 @@ const RoutesFrontend = {
         seguroDeCalidad: '/credito/seguro-de-calidad',
     },
     elTule: {
-        home: '/el-tule/',
-        production: '/el+tule/',
+        home: '/el+tule/',
+    },
+    terrazas: {
+        home: '/las+terrazas+residencial/',
     },
     proyectos: {
         home: '/proyecto/',
