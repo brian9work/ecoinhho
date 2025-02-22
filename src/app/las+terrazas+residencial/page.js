@@ -2,7 +2,7 @@
 import "@/app/globals.css"
 import Header from "components/header/Header";
 import { useState } from "react";
-import { CaracteristicasResidencial } from "@/components/el-tule/Caracteristicas";
+import { CaracteristicasResidencial } from "@/components/residencial/Caracteristicas";
 import BannerOfCredits from "@/components/banners/BannerOfCredits";
 import Documentos from "@/components/el-tule/Documentos";
 import BannerForProyect from "@/components/proyect/BannerForProyect";
