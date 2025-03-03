@@ -76,7 +76,27 @@ const Images = [
         author: "Freepik",
         image: origin + "docs.jpg",
         url: "https://www.freepik.es/foto-gratis/referencias-documentos-organizados_26297495.htm#fromView=image_search&page=1&position=0&uuid=5f29b343-2e56-48d9-9bc1-53b241ecfbae&query=agradecer+equipo",
-    }, 
+    }, {
+        title: "Linda mascota shiba inu con familia",
+        author: "freepik",
+        image: origin + "residencial/petPark.jpg", 
+        url: "https://www.freepik.es/foto-gratis/linda-mascota-shiba-inu-familia_27260990.htm#fromView=image_search&page=1&position=0&uuid=67fc7191-29c6-4d76-8423-ea28b79a8b93"
+    }, {
+        title: "Grupo multiétnico de jóvenes estudiantes",
+        author: "drobotdean",
+        image: origin + "residencial/areaSocial.jpg", 
+        url: "https://www.freepik.es/foto-gratis/grupo-multietnico-jovenes-estudiantes_7730655.htm#fromView=image_search&page=1&position=0&uuid=514b0e5b-879d-469f-b938-168790d24663"
+    }, {
+        title: "Dos niñas andan en bicicleta en el parque en primavera.",
+        author: "pvproductions",
+        image: origin + "residencial/ciclopistaInfantil.jpg", 
+        url: "https://www.freepik.es/foto-gratis/dos-ninas-andan-bicicleta-parque-primavera_15761835.htm#fromView=image_search&page=1&position=4&uuid=496c62fd-d631-47e7-8286-dba88d24ccec"
+    }, {
+        title: "Grupo de personas trabajando juntos al aire libre",
+        author: "pikisuperstar",
+        image: origin + "residencial/gimnacio.jpg", 
+        url: "https://www.freepik.es/foto-gratis/grupo-personas-trabajando-juntos-al-aire-libre_34305505.htm#fromView=image_search&page=1&position=0&uuid=5a3b49a3-b246-46f3-9881-b3a20b85a6a1"
+    },
     // {
     //     title: "Titulo",
     //     author: "Freepik",

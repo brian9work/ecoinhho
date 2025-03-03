@@ -11,7 +11,7 @@ const ActivitiesData = [
     {
         title: "Areas Sociales",
         description: "Servicios profesionales de construcción con los más altos estándares de calidad y seguridad.",
-        image: origin + "residencial/gimnacio.jpg",
+        image: origin + "residencial/areaSocial.jpg",
     },
     {
         title: "Gimnacio al aire libre",
