@@ -10,6 +10,7 @@ import ServicesComponent from "@/components/home/ServicesComponent";
 import Form from "@/components/home/Form";
 import Proyects from "@/components/home/Proyects";
 import Galery from "@/components/home/Galery";
+import Avaliable from "@/components/home/Avaliable";
 
 export default function Home() {
    return (
@@ -21,6 +22,8 @@ export default function Home() {
             <Experience />
             <div className="h-28 md:h-48" />
             <Promotion />
+            <div className="h-20 md:h-32" />
+            <Avaliable />
             <div className="h-20 md:h-32" />
             <Obtener />
             <div className="h-20 md:h-32" />

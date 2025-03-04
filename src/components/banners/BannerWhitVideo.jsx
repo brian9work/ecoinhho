@@ -5,7 +5,11 @@ import Contact, { Messages } from '@/config/contact'
 import origin from "@/config/isServer"
 
 
-export default function Banner({ children = "Proyecto de construccion", src = "cielo.jpg", category = "PROYECTO" }) {
+export default function BannerWhitVideo({ 
+        url = "", 
+        category = "PROYECTO", 
+        title = "Proyecto de construccion", 
+    }) {
     return (
 
         <div className={"relative h-[95vh] bg-cover bg-center z-0 "}
@@ -19,12 +23,14 @@ export default function Banner({ children = "Proyecto de construccion", src = "c
                 muted
                 playsInline
             >
-                <source src={origin + "video/lasRerrazasResidencial.mp4"} type="video/mp4" />
+                <source src={origin + `video/${url}`} type="video/mp4" />
             </video>
             <div className='absolute top-0 w-full h-full flex items-center justify-center flex-col bg-black/60'>
-                    <H4 className='text-lg md:text-xl font-extrabold text-white max-w-3xl mb-1 font-figtree text-center '>Terrazas</H4>
+                    <H4 className='text-lg md:text-xl font-extrabold text-white max-w-3xl mb-1 font-figtree text-center '>
+                        {category}
+                    </H4>
                     <h1 className="block w-10/12 text-2xl md:text-5xl font-bold text-primary-yellow mb-1 font-figtree text-center uppercase" >
-                        Las Terrazas Residencial
+                        {title}
                     </h1>
                     <P className="text-xl md:text-2xl text-white mb-8 text-center">
                         "Construyendo tus sueños, edificando el futuro."
