@@ -21,10 +21,10 @@ export default function RootLayout({ children }) {
         className={`antialiased max-h-screen overflow-x-hidden min-h-screen w-screen h-screen max-w-[2000px] mx-auto `}
         // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {/*
+        
         <Header />
         {children}
-        <Footer />*/}
+        <Footer />
       </body>
     </html>
   );
